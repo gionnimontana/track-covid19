@@ -23,7 +23,7 @@ const ActiveVSinactive = (p: Props) => {
   return (
     <ChartFrame title="Active vs inactive workers">
       <LineChart
-        width={500}
+        width={600}
         height={300}
         data={data}
         margin={{
