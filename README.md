@@ -1,0 +1,1 @@
+Tracking covid-19 impact on target company.
