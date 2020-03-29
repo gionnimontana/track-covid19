@@ -41,5 +41,11 @@ export interface AggregatedData {
 export interface Filter {
   country?: string
   company?: string
-  date?: [number, number]
+  date?: [string, string]
+}
+
+export interface FilterOptions {
+  countries: string[]
+  companies: string[]
+  dates: string[]
 }

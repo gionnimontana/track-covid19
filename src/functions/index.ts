@@ -1,4 +1,4 @@
-import { Data, AggregatedData } from '../Interfaces'
+import { Data, AggregatedData, FilterOptions } from '../Interfaces'
 import moment from 'moment'
 
 export const aggregateDate = (data: Data[]): AggregatedData[] => {
@@ -24,4 +24,17 @@ export const aggregateDate = (data: Data[]): AggregatedData[] => {
       date, factory, home, vacation, off, quarantine, sick, infected
     }
   })
+}
+
+export const getFilterOptions = (data: Data[]): FilterOptions => {
+  const filterOptions: FilterOptions = {
+    countries: [],
+    companies: [],
+    dates: []
+  }
+  if (data[0]) {
+    data[0].countries.forEach(el => filterOptions.countries.push(el.country))
+    data[0].companies.forEach(el => filterOptions.companies.push(el.company))
+  }
+  return filterOptions
 }

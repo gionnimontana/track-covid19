@@ -39,7 +39,7 @@ const App = () => {
         flexWrap="wrap"
         justifyContent="center"
       >
-        <FilterComponent onFilter={onFilter}/>
+        <FilterComponent onFilter={onFilter} payload={payload} filter={filter}/>
         <Overview data={data}/>
         <HomeVsOnplace data={data}/>
         <SickRatio data={data} />
