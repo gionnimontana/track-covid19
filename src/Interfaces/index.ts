@@ -1,12 +1,23 @@
 export interface Data {
   date: number,
   companies: Company[]
+  countries: Country[]
+}
+
+export interface Country {
+  country: string
+  employees: number
+  absData: AbsData
 }
 
 export interface Company {
-  name: string
+  company: string
   country: string
   employees: number
+  absData: AbsData
+}
+
+export interface AbsData {
   people_factory: number
   people_home: number
   people_vacation: number
@@ -25,4 +36,10 @@ export interface AggregatedData {
   quarantine: number
   sick: number
   infected: number
+}
+
+export interface Filter {
+  country?: string
+  company?: string
+  date?: [number, number]
 }

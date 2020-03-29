@@ -12,13 +12,13 @@ export const aggregateDate = (data: Data[]): AggregatedData[] => {
     let sick = 0
     let infected = 0
     day.companies.forEach(el => {
-      factory += el.people_factory
-      home += el.people_home
-      vacation += el.people_off
-      off += el.people_factory
-      quarantine += el.people_quarantine
-      sick += el.people_sick
-      infected += el.people_infected
+      factory += el.absData.people_factory
+      home += el.absData.people_home
+      vacation += el.absData.people_off
+      off += el.absData.people_factory
+      quarantine += el.absData.people_quarantine
+      sick += el.absData.people_sick
+      infected += el.absData.people_infected
     })
     return {
       date, factory, home, vacation, off, quarantine, sick, infected

@@ -21,8 +21,8 @@ const Overview = (p: Props) => {
       <YAxis/>
       <Tooltip/>
       <Legend />
-      <Bar dataKey="factory" stackId="a" fill="#0a005a" />
-      <Bar dataKey="home" stackId="a" fill="#295ef4" />
+      <Bar dataKey="factory" stackId="a" fill="#295ef4" />
+      <Bar dataKey="home" stackId="a" fill="#0a005a" />
       <Bar dataKey="vacation" stackId="a" fill="#a7ffca" />
       <Bar dataKey="off" stackId="a" fill="#27f67a" />
       <Bar dataKey="quarantine" stackId="a" fill="#18c75e" />
