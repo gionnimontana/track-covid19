@@ -36,6 +36,7 @@ const FilterComponent = (p: Props) => {
       >
         <Box width="330px" marginBottom="5px">
           <DropDown
+            closeMenuOnSelect={false}
             value={p.filter.countries}
             onChange={addFilter('countries')}
             options={countryOptions}
@@ -46,6 +47,7 @@ const FilterComponent = (p: Props) => {
         </Box>
         <Box width="330px" marginBottom="5px">
           <DropDown
+            closeMenuOnSelect={false}
             value={p.filter.companies}
             onChange={addFilter('companies')}
             options={factoryOptions}
@@ -56,6 +58,7 @@ const FilterComponent = (p: Props) => {
         </Box>
         <Box width="330px" marginBottom="5px">
           <DropDown
+            closeMenuOnSelect={false}
             value={p.filter.date}
             onChange={addFilter('date')}
             options={dateOptions}
