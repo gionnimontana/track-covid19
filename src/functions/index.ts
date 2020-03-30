@@ -1,8 +1,12 @@
-import { Data, AggregatedData, FilterOptions } from '../Interfaces'
+import { Data, AggregatedData, FilterOption, Filter } from '../Interfaces'
 import moment from 'moment'
 
-export const aggregateDate = (data: Data[]): AggregatedData[] => {
-  return data.map((day) => {
+export const aggregateDate = (data: Data[], filter: Filter): AggregatedData[] => {
+  return data.reduce((acc: AggregatedData[], day) => {
+
+    const filterContainDate = filter.date.find(el => el.value === day.date)
+    if (filter.date.length > 0 && !filterContainDate) return acc
+
     const date = moment(day.date).format('DD-MM')
     let factory = 0
     let home = 0
@@ -12,6 +16,13 @@ export const aggregateDate = (data: Data[]): AggregatedData[] => {
     let sick = 0
     let infected = 0
     day.companies.forEach(el => {
+
+      const filterContainCountry = filter.countries.find(c => c.value === el.country)
+      const filterContainCompany = filter.companies.find(c => c.value === el.company)
+      const filterCountry = filter.countries.length > 0 && !filterContainCountry
+      const filterCompany = filter.companies.length > 0 && !filterContainCompany
+      if (filterCountry || filterCompany) return
+
       factory += el.absData.people_factory
       home += el.absData.people_home
       vacation += el.absData.people_off
@@ -20,21 +31,34 @@ export const aggregateDate = (data: Data[]): AggregatedData[] => {
       sick += el.absData.people_sick
       infected += el.absData.people_infected
     })
-    return {
+    return [...acc, {
       date, factory, home, vacation, off, quarantine, sick, infected
-    }
-  })
+    }]
+  }, [])
 }
 
-export const getFilterOptions = (data: Data[]): FilterOptions => {
-  const filterOptions: FilterOptions = {
+export const getFilterOptions = (data: Data[], countries: FilterOption[]): Filter => {
+  const filterOptions: Filter = {
     countries: [],
     companies: [],
-    dates: []
+    date: []
   }
+
+  const createOption = (value: string | number, label?: string): FilterOption => ({ 
+    label: label || value.toString(), 
+    value
+  })
+
   if (data[0]) {
-    data[0].countries.forEach(el => filterOptions.countries.push(el.country))
-    data[0].companies.forEach(el => filterOptions.companies.push(el.company))
+    data[0].countries.forEach(el => filterOptions.countries.push(createOption(el.country)))
+    data[0].companies.forEach(el => {
+      if (countries.length <= 0) filterOptions.companies.push(createOption(el.company))
+      else {
+        const targetCountry = countries.find(c => c.value === el.country)
+        if (targetCountry) filterOptions.companies.push(createOption(el.company))
+      }
+    })
+    data.forEach(el => filterOptions.date.push(createOption(el.date, moment(el.date).format('DD-MM'))))
   }
   return filterOptions
 }

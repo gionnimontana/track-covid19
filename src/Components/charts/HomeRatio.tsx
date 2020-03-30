@@ -1,29 +1,32 @@
 import React from 'react'
 import {  BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, Legend } from 'recharts'
-import { AggregatedData } from '../Interfaces'
-import ChartFrame from './ChartFrame'
+import { AggregatedData } from '../../Interfaces'
+import ChartFrame from '../ChartFrame'
+import { colors } from '../../style'
 
 interface Props {
   data: AggregatedData[] 
 }
 
 interface Aggregated {
-  active: number
-  inactive: number
   date: string
+  home: number
 }
 
-const ActiveVSinactive = (p: Props) => {
+const HomeRation = (p: Props) => {
   const data = p.data.reduce((acc: Aggregated[], el) => {
+    const totalSum = el.factory + el.home + el.off + el.vacation + el.infected + el.quarantine + el.sick
+    const homeRatio = el.home / totalSum
+    const factoryRatio = el.factory / totalSum
     const aggregate = {
       date: el.date,
-      active: el.factory + el.home,
-      inactive: el.infected + el.off + el.quarantine + el.sick + el.vacation
+      home: Math.floor(homeRatio * 1000) / 1000,
+      factory: Math.floor(factoryRatio * 1000) / 1000
     }
     return [...acc, aggregate]
   }, [])
   return (
-    <ChartFrame title="Active vs inactive workers">
+    <ChartFrame title="Active workers ratio">
       <BarChart
         width={600}
         height={300}
@@ -37,11 +40,11 @@ const ActiveVSinactive = (p: Props) => {
         <YAxis />
         <Tooltip />
         <Legend />
-        <Bar dataKey="active" fill="#0a005a" />
-        <Bar dataKey="inactive" fill="#27f67a" />
+        <Bar dataKey="home" stackId="a" fill={colors.home} />
+        <Bar dataKey="factory" stackId="a" fill={colors.factory} />
       </BarChart>
     </ChartFrame>
   );
 }
 
-export default ActiveVSinactive
+export default HomeRation

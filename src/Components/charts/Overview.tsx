@@ -1,7 +1,8 @@
 import React from 'react'
 import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, Legend } from 'recharts'
-import { AggregatedData } from '../Interfaces'
-import ChartFrame from '../Components/ChartFrame'
+import { AggregatedData } from '../../Interfaces'
+import ChartFrame from '../ChartFrame'
+import { colors } from '../../style'
 
 interface Props {
   data: AggregatedData[] 
@@ -21,13 +22,13 @@ const Overview = (p: Props) => {
       <YAxis/>
       <Tooltip/>
       <Legend />
-      <Bar dataKey="factory" stackId="a" fill="#295ef4" />
-      <Bar dataKey="home" stackId="a" fill="#0a005a" />
-      <Bar dataKey="vacation" stackId="a" fill="#a7ffca" />
-      <Bar dataKey="off" stackId="a" fill="#27f67a" />
-      <Bar dataKey="quarantine" stackId="a" fill="#18c75e" />
-      <Bar dataKey="sick" stackId="a" fill="#0c9c46" />
-      <Bar dataKey="infected" stackId="a" fill="#025e27" />
+      <Bar dataKey="factory" stackId="a" fill={colors.factory} />
+      <Bar dataKey="home" stackId="a" fill={colors.home} />
+      <Bar dataKey="vacation" stackId="a" fill={colors.vacation} />
+      <Bar dataKey="off" stackId="a" fill={colors.off} />
+      <Bar dataKey="quarantine" stackId="a" fill={colors.quarantine} />
+      <Bar dataKey="sick" stackId="a" fill={colors.sick} />
+      <Bar dataKey="infected" stackId="a" fill={colors.infected} />
       </BarChart>
     </ChartFrame>
   );

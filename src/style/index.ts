@@ -3,7 +3,7 @@ import { createMuiTheme } from '@material-ui/core/styles'
 export default createMuiTheme({
   palette: {
     primary: {
-      main: '#212121',
+      main: '#0066b3',
       light: '#3d3d3d',
       dark: '#000',
       contrastText: '#fff',
@@ -24,17 +24,11 @@ export default createMuiTheme({
 })
 
 export const colors = {
-  warning: '#bfce43',
-  alarm: '#d14949',
-  regular: '#4fc469',
-  darkGrey: '#7e7e7e',
-  lightGrey: '#e5e5e5',
-  disconnected: '#888888',
-}
-
-export const containerStyle = {
-  maxWidth: '1152px',
-  marginTop: '15px',
-  marginBottom: '15px',
-  margin: 'auto',
+  factory: "#0066b3",
+  home: "#0a005a",
+  vacation: "#63747A",
+  off: "#ed1c24",
+  quarantine: "#53565A",
+  sick: "#F6A21E",
+  infected: "#4F0000",
 }
