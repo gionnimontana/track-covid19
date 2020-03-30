@@ -16,8 +16,8 @@ interface Aggregated {
 const HomeRation = (p: Props) => {
   const data = p.data.reduce((acc: Aggregated[], el) => {
     const totalSum = el.factory + el.home + el.off + el.vacation + el.infected + el.quarantine + el.sick
-    const homeRatio = el.home / totalSum
-    const factoryRatio = el.factory / totalSum
+    const homeRatio = totalSum ? el.home / totalSum : 0
+    const factoryRatio = totalSum ? el.factory / totalSum: 0
     const aggregate = {
       date: el.date,
       home: Math.floor(homeRatio * 1000) / 1000,
