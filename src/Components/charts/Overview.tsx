@@ -12,8 +12,6 @@ const Overview = (p: Props) => {
   return (
     <ChartFrame title="Workers location overview">
       <BarChart 
-        width={600} 
-        height={300} 
         data={p.data}
         margin={{top: 20, right: 30, left: 20, bottom: 5}}
       >
