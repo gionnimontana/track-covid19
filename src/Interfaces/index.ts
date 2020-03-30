@@ -48,3 +48,10 @@ export interface FilterOption {
   label: string
   value: string | number
 }
+
+export interface Stats {
+  employees: number
+  countries: number
+  companies: number
+  lastUpdate: string
+}

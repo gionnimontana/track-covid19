@@ -39,7 +39,7 @@ const ActiveVSinactive = (p: Props) => {
         <Tooltip />
         <Legend />
         <Bar dataKey="active" fill={colors.factory} />
-        <Bar dataKey="inactive" fill={colors.off} />
+        <Bar dataKey="inactive" fill={colors.sick} />
       </BarChart>
     </ChartFrame>
   );

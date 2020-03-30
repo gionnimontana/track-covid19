@@ -27,8 +27,8 @@ export const colors = {
   factory: "#0066b3",
   home: "#0a005a",
   vacation: "#63747A",
-  off: "#ed1c24",
+  off: "#F6A21E",
   quarantine: "#53565A",
-  sick: "#F6A21E",
-  infected: "#4F0000",
+  sick: "#ed1c24",
+  infected: "#000",
 }

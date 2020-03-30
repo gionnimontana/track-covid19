@@ -1,4 +1,4 @@
-import { Data, AggregatedData, FilterOption, Filter } from '../Interfaces'
+import { Data, AggregatedData, FilterOption, Filter, Stats } from '../Interfaces'
 import moment from 'moment'
 
 export const aggregateDate = (data: Data[], filter: Filter): AggregatedData[] => {
@@ -25,8 +25,8 @@ export const aggregateDate = (data: Data[], filter: Filter): AggregatedData[] =>
 
       factory += el.absData.people_factory
       home += el.absData.people_home
-      vacation += el.absData.people_off
-      off += el.absData.people_factory
+      vacation += el.absData.people_vacation
+      off += el.absData.people_off
       quarantine += el.absData.people_quarantine
       sick += el.absData.people_sick
       infected += el.absData.people_infected
@@ -61,4 +61,22 @@ export const getFilterOptions = (data: Data[], countries: FilterOption[]): Filte
     data.forEach(el => filterOptions.date.push(createOption(el.date, moment(el.date).format('DD-MM'))))
   }
   return filterOptions
+}
+
+export const getStats = (p: Data[]): Stats => {
+  const output = {
+    employees: 0,
+    companies: 0,
+    countries: 0,
+    lastUpdate: '-'
+  }
+  const lastMeasure = p[p.length - 1]
+  if (!lastMeasure) return output
+
+  lastMeasure.companies.forEach(el => output.employees += el.employees)
+  output.companies = lastMeasure.companies.length
+  output.countries = lastMeasure.countries.length
+  output.lastUpdate = moment(lastMeasure.date).format('DD-MM-YYYY')
+
+  return output
 }
