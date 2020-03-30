@@ -1,8 +1,11 @@
 import React from 'react'
 import {  BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, Legend } from 'recharts'
+import Card from '@material-ui/core/Card'
+import Box from '@material-ui/core/Box'
 import { AggregatedData } from '../../Interfaces'
-import ChartFrame from '../ChartFrame'
+import ChartFrame from './ChartFrame'
 import { colors } from '../../style'
+import CustomTooltip from './CustomTooltip'
 
 interface Props {
   data: AggregatedData[] 
@@ -11,6 +14,8 @@ interface Props {
 interface Aggregated {
   date: string
   sick: number
+  infected: number
+  quarantine: number
 }
 
 const SickRatio = (p: Props) => {
@@ -36,9 +41,9 @@ const SickRatio = (p: Props) => {
         }}
       >
         <CartesianGrid strokeDasharray="3 3" />
-        <XAxis dataKey="date"/>
-        <YAxis />
-        <Tooltip />
+        <XAxis dataKey="date" />
+        <YAxis tickFormatter={(a)=>`${a*100} %`} />
+        <Tooltip content={CustomTooltip}/>
         <Legend />
         <Bar dataKey="sick" stackId="a" fill={colors.sick} />
         <Bar dataKey="infected" stackId="a" fill={colors.infected} />

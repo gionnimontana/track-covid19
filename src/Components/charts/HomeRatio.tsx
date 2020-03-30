@@ -1,8 +1,9 @@
 import React from 'react'
 import {  BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, Legend } from 'recharts'
 import { AggregatedData } from '../../Interfaces'
-import ChartFrame from '../ChartFrame'
+import ChartFrame from './ChartFrame'
 import { colors } from '../../style'
+import CustomTooltip from './CustomTooltip'
 
 interface Props {
   data: AggregatedData[] 
@@ -11,6 +12,7 @@ interface Props {
 interface Aggregated {
   date: string
   home: number
+  factory: number
 }
 
 const HomeRation = (p: Props) => {
@@ -35,8 +37,8 @@ const HomeRation = (p: Props) => {
       >
         <CartesianGrid strokeDasharray="3 3" />
         <XAxis dataKey="date"/>
-        <YAxis />
-        <Tooltip />
+        <YAxis tickFormatter={(a)=>`${a*100} %`}/>
+        <Tooltip content={CustomTooltip}/>
         <Legend />
         <Bar dataKey="home" stackId="a" fill={colors.home} />
         <Bar dataKey="factory" stackId="a" fill={colors.factory} />

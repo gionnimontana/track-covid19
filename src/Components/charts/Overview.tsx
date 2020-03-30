@@ -1,7 +1,7 @@
 import React from 'react'
 import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, Legend } from 'recharts'
 import { AggregatedData } from '../../Interfaces'
-import ChartFrame from '../ChartFrame'
+import ChartFrame from './ChartFrame'
 import { colors } from '../../style'
 
 interface Props {
