@@ -6,7 +6,7 @@ In the project directory, you can run:
 
 ### `npm install`
 
-used to install the project.
+used to install the project. (only for the first time)
 
 ### `npm start`
 
