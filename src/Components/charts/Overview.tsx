@@ -25,8 +25,8 @@ const Overview = (p: Props) => {
       <Bar dataKey="home" stackId="a" fill={colors.home} />
       <Bar dataKey="vacation" stackId="a" fill={colors.vacation} />
       <Bar dataKey="off" stackId="a" fill={colors.off} />
-      <Bar dataKey="quarantine" stackId="a" fill={colors.quarantine} />
       <Bar dataKey="sick" stackId="a" fill={colors.sick} />
+      <Bar dataKey="quarantine" stackId="a" fill={colors.quarantine} />
       <Bar dataKey="infected" stackId="a" fill={colors.infected} />
       </BarChart>
     </ChartFrame>

@@ -26,8 +26,8 @@ export default createMuiTheme({
 export const colors = {
   factory: "#0066b3",
   home: "#0a005a",
-  vacation: "#63747A",
-  off: "#F6A21E",
+  vacation: "#82ca9d",
+  off: "#8884d8",
   quarantine: "#53565A",
   sick: "#ed1c24",
   infected: "#000",

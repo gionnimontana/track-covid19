@@ -1,7 +1,5 @@
 import React from 'react'
 import {  BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, Legend } from 'recharts'
-import Card from '@material-ui/core/Card'
-import Box from '@material-ui/core/Box'
 import { AggregatedData } from '../../Interfaces'
 import ChartFrame from './ChartFrame'
 import { colors } from '../../style'

@@ -37,8 +37,8 @@ const ActiveVSinactive = (p: Props) => {
         <YAxis />
         <Tooltip  content={CustomTooltip(false)}/>
         <Legend />
-        <Bar dataKey="active" fill={colors.factory} />
         <Bar dataKey="inactive" fill={colors.sick} />
+        <Bar dataKey="active" fill={colors.factory} />
       </BarChart>
     </ChartFrame>
   );
