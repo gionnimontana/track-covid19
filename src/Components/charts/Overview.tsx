@@ -3,6 +3,7 @@ import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, Legend } from 'rec
 import { AggregatedData } from '../../Interfaces'
 import ChartFrame from './ChartFrame'
 import { colors } from '../../style'
+import CustomTooltip from './CustomTooltip'
 
 interface Props {
   data: AggregatedData[] 
@@ -18,7 +19,7 @@ const Overview = (p: Props) => {
       <CartesianGrid strokeDasharray="3 3"/>
       <XAxis dataKey="date"/>
       <YAxis/>
-      <Tooltip/>
+      <Tooltip content={CustomTooltip(false)}/>
       <Legend />
       <Bar dataKey="factory" stackId="a" fill={colors.factory} />
       <Bar dataKey="home" stackId="a" fill={colors.home} />

@@ -8,23 +8,23 @@ interface Payload {
   value: number
 }
 
-const CustomTooltip = ({ active, payload, label }: any) => {
+const CustomTooltip = (format: boolean) => ({ active, payload, label }: any) => {
   if (active) {
     const content = payload as Payload[]
-    const valueformatter = (el: number) => `${Math.floor(el * 100 * 100) / 100}%`
+    const valueformatter = (el: number) => format ? `${Math.floor(el * 100 * 100) / 100}%` : el
     const sum = content.reduce((acc, el) => acc + el.value, 0)
     return (
       <Card className="custom-tooltip" elevation={2}>
-        <Box fontSize="14px" padding="10px">
-          <Box marginBottom="4px">
+        <Box fontSize="14px" padding="15px">
+          <Box marginBottom="8px">
             Date: {label}
           </Box>
           {content.map((el, i) => (
-              <Box color={el.color} key={i}>
+              <Box color={el.color} key={i} marginBottom="3px">
                 {`${el.name} : ${valueformatter(el.value)}`}
               </Box>
           ))}
-          <Box marginTop="4px">
+          <Box marginTop="8px" fontWeight="bold">
             Sum: {valueformatter(sum)}
           </Box>
         </Box>

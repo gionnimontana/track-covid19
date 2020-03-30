@@ -43,7 +43,7 @@ const SickRatio = (p: Props) => {
         <CartesianGrid strokeDasharray="3 3" />
         <XAxis dataKey="date" />
         <YAxis tickFormatter={(a)=>`${a*100} %`} />
-        <Tooltip content={CustomTooltip}/>
+        <Tooltip content={CustomTooltip(true)}/>
         <Legend />
         <Bar dataKey="sick" stackId="a" fill={colors.sick} />
         <Bar dataKey="infected" stackId="a" fill={colors.infected} />
