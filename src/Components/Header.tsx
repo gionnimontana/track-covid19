@@ -61,17 +61,20 @@ const Header = (p: Props) => {
         <HighlightBox label="Employees" value={stats.employees} />
       </Box>
       <Box
-        display="flex"
-        flexDirection="row"
-        flexWrap="wrap"
-        justifyContent="space-between"
         fontSize="14px"
+        style={
+          isSmallScreen
+          ? {textAlign: 'center'}
+          : {display: 'flex', flexDirection: 'row', justifyContent: 'space-between'}
+        }
       >
         <Box>Last Update: {stats.lastUpdate}</Box>
         <Box
           display="flex"
           flexDirection="row"
           alignItems="center"
+          justifyContent="center"
+          marginTop={isSmallScreen ? '10px' : '0px'}
         >
           <Box fontStyle="italic" color="#9d9d9d">Powered by</Box>
           <img src="/logo_paradox-min.jpg" alt="minibea_logo" width="135px"/>
