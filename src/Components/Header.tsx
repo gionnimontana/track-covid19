@@ -31,7 +31,7 @@ const Header = (p: Props) => {
       justifyContent="space-between"
       alignItems="end"
     >
-      <Box style={{ marginBottom: '22px', fontSize: '20px', fontWeight: 'bold'}}>European Covid-19 tracking dashboard</Box>
+      <Box style={{ marginBottom: '22px', fontSize: '20px', fontWeight: 'bold'}}>MinebeaMitsumi Europe Covid-19 tracking dashboard</Box>
       <img src="/logo_minebeamitsumi.png" alt="minibea_logo" height="35px"/>
     </Box>
   )
@@ -40,7 +40,7 @@ const Header = (p: Props) => {
     <Box textAlign="center">
       <img src="/logo_minebeamitsumi.png" alt="minibea_logo" height="35px"/>
       <Box style={{ marginBottom: '22px', fontSize: '20px', fontWeight: 'bold', marginTop: '22px'}}>
-        MinebeaMitsumi Europe Covid-19 tracking dashboard
+        Covid-19 tracking dashboard
       </Box>
     </Box>
   )
@@ -60,7 +60,23 @@ const Header = (p: Props) => {
         <HighlightBox label="Companies" value={stats.companies} />
         <HighlightBox label="Employees" value={stats.employees} />
       </Box>
-      <Box>Last Update: {stats.lastUpdate}</Box>
+      <Box
+        display="flex"
+        flexDirection="row"
+        flexWrap="wrap"
+        justifyContent="space-between"
+        fontSize="14px"
+      >
+        <Box>Last Update: {stats.lastUpdate}</Box>
+        <Box
+          display="flex"
+          flexDirection="row"
+          alignItems="center"
+        >
+          <Box fontStyle="italic" color="#9d9d9d">Powered by</Box>
+          <img src="/logo_paradox-min.jpg" alt="minibea_logo" width="135px"/>
+        </Box>
+      </Box>
     </Paper>
   )
 }
