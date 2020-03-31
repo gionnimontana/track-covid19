@@ -80,3 +80,12 @@ export const getStats = (p: Data[]): Stats => {
 
   return output
 }
+
+export const sortFilterOptions = (f: Filter): Filter => {
+  const sortPerValue = (a: FilterOption, b: FilterOption) => ((a.label > b.label) ? 1 : -1)
+  return {
+    companies: f.companies.sort(sortPerValue),
+    countries: f.countries.sort(sortPerValue),
+    date: f.date
+  }
+}

@@ -11,7 +11,7 @@ interface Props {
 
 const Overview = (p: Props) => {
   return (
-    <ChartFrame title="Workers location overview">
+    <ChartFrame title="Workers breakdown by status">
       <BarChart 
         data={p.data}
         margin={{top: 20, right: 30, left: 20, bottom: 5}}

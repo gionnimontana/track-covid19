@@ -40,7 +40,7 @@ const Header = (p: Props) => {
     <Box textAlign="center">
       <img src="/logo_minebeamitsumi.png" alt="minibea_logo" height="35px"/>
       <Box style={{ marginBottom: '22px', fontSize: '20px', fontWeight: 'bold', marginTop: '22px'}}>
-        European Covid-19 tracking dashboard
+        MinebeaMitsumi Europe Covid-19 tracking dashboard
       </Box>
     </Box>
   )

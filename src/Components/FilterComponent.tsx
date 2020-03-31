@@ -2,7 +2,7 @@ import React from 'react'
 import Paper from '@material-ui/core/Paper'
 import Box from '@material-ui/core/Box'
 import { Filter, Data, FilterOption } from '../Interfaces'
-import { getFilterOptions } from '../functions'
+import { getFilterOptions, sortFilterOptions } from '../functions'
 // @ts-ignore
 import DropDown from 'react-select'
 
@@ -13,7 +13,8 @@ interface Props {
 }
 
 const FilterComponent = (p: Props) => {
-  const filterOptions = getFilterOptions(p.payload, p.filter.countries)
+  const unsortedFilterOptions = getFilterOptions(p.payload, p.filter.countries)
+  const filterOptions = sortFilterOptions(unsortedFilterOptions)
   const countryOptions: FilterOption[] = filterOptions.countries
   const factoryOptions: FilterOption[] = filterOptions.companies
   const dateOptions: FilterOption[] = filterOptions.date
