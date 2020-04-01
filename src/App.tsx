@@ -12,6 +12,7 @@ import HomeRatio from './Components/charts/HomeRatio'
 import FilterComponent from './Components/FilterComponent'
 import Header from './Components/Header'
 import './style/index.css'
+import MapComponent from './Components/MapComponent'
 
 const App = () => {
   const initFilter: Filter = { countries: [], companies: [], date: []}
@@ -45,6 +46,7 @@ const App = () => {
         justifyContent="center"
       >
         <Header payload={payload}/>
+        <MapComponent/>
         <FilterComponent onFilter={onFilter} payload={payload} filter={filter}/>
         <Overview data={data}/>
         <HomeVsOnplace data={data}/>

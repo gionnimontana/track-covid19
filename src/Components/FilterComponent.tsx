@@ -27,8 +27,8 @@ const FilterComponent = (p: Props) => {
   }
 
   return (
-    <Paper elevation={1} style={{margin: '15px', width: "100%", padding: '25px', maxWidth: '1280px'}}>
-      <Box style={{ marginBottom: '20px', fontSize: '18px', fontWeight: 'bold'}}>Filters</Box>
+    <Paper elevation={1} style={{margin: '8px', width: "100%", padding: '15px', maxWidth: '1280px'}}>
+      <Box style={{ marginBottom: '15px', fontSize: '18px', fontWeight: 'bold'}}>Filters</Box>
       <Box
         display="flex"
         flexDirection="row"

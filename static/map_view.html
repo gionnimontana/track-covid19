@@ -1,0 +1,124 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+
+    <title>Covid-19 tracker</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css"
+    integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
+    crossorigin=""/>
+    <script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"
+    integrity="sha512-gZwIG9x3wUXg2hdXF6+rVkLF/0Vi9U8D2Ntg4Ga5I5BZpVkVxlJWbSQtXPSiUTtC0TjtGOmxa1AJPuV0CPthew=="
+    crossorigin=""></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="CovidMap.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="theme.css">
+
+</head>
+
+<body>
+    <div class="main-container">
+        <div id="mapid"></div>
+        <div class="parsing-data">Data generated on <span id="checklist-timestamp"></span> from file <span id="checklist-filename"></span></div>
+        <div class="">
+            <div class="btn-group btn-group-toggle top-buttons d-flex justify-content-center"  data-toggle="buttons">
+                <label class="btn btn-factory active">
+                    <input type="radio" name="filter_by_type" id="radio_filter_opt_1", value="people_factory" onchange="covid_map.update_map()" checked autocomplete="off">
+                    People in the factory
+                </label>
+                <label class="btn btn-home">
+                    <input type="radio" name="filter_by_type" id="radio_filter_opt_2", value="people_home" onchange="covid_map.update_map()" autocomplete="off">
+                    People at home office
+                </label>
+                <label class="btn btn-vacation">
+                    <input type="radio" name="filter_by_type" id="radio_filter_opt_3", value="people_vacation" onchange="covid_map.update_map()" autocomplete="off">
+                    People on vacation
+                </label>
+                <label class="btn btn-off">
+                    <input type="radio" name="filter_by_type" id="radio_filter_opt_4", value="people_off" onchange="covid_map.update_map()" autocomplete="off">
+                    People on temporary layoff
+                </label>
+                <label class="btn btn-quarantine">
+                    <input type="radio" name="filter_by_type" id="radio_filter_opt_5", value="people_quarantine" onchange="covid_map.update_map()" autocomplete="off">
+                    People in quarantine
+                </label>
+                <label class="btn btn-sick">
+                    <input type="radio" name="filter_by_type" id="radio_filter_opt_6", value="people_sick" onchange="covid_map.update_map()" autocomplete="off">
+                    People on sick leave
+                </label>
+                <label class="btn btn-infected">
+                    <input type="radio" name="filter_by_type" id="radio_filter_opt_6", value="people_infected" onchange="covid_map.update_map()" autocomplete="off">
+                    People infected by COVID-19
+                </label>
+            </div>
+    
+            <div class="btn-group btn-group-toggle bottom-buttons"  data-toggle="buttons">
+                <label class="btn btn-secondary active">
+                    <input type="radio" name="filter_by_geo" id="filter_by_geo_opt_1", value="companies" onchange="covid_map.update_map()" autocomplete="off" checked>
+                    Company
+                </label>
+                <label class="btn btn-secondary">
+                    <input type="radio" name="filter_by_geo" id="filter_by_geo_opt_2", value="countries" onchange="covid_map.update_map()" autocomplete="off">
+                    Country
+                </label>
+            </div>
+        </div>
+    </div>
+
+    <script>
+
+        $.ajax({
+            url: "/data/overview-processing-data.json",
+            success: function (result) {
+            var generationTime = new Date(result.timestamp)
+            $("#checklist-timestamp").text(generationTime.toLocaleString());
+            $("#checklist-filename").text(result.filename);
+            }
+        });
+
+        function get_filter_by_employee()
+        {
+            for (const btn of document.getElementsByName('filter_by_type'))
+            {
+                if(btn.checked)
+                {
+                    return btn.value;
+                };
+            };
+        };
+
+        function get_filter_by_geo()
+        {
+            for (const btn of document.getElementsByName('filter_by_geo'))
+            {
+                if(btn.checked)
+                {
+                    return btn.value;
+                };
+            };
+        };
+
+        var covid_map = new CovidMap();
+
+        var last_day_data = null; 
+        var coordinates_map = null;
+
+        $.getJSON('data/coordinates.json', function(coordinates) {
+            covid_map.coordinates_map = coordinates;
+            $.getJSON('data/data.json', function(data) {            
+                // the last element of the array is the data of the last day
+                covid_map.data_points = data.pop();
+                covid_map.update_map();
+            });
+        });
+
+
+    </script>
+</body>
+</html>

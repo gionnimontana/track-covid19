@@ -12,9 +12,9 @@ interface Props {
 
 const ChartFrame = (p: Props) => {
   const isSmallScreen = p.width === 'xs' || p.width === 'sm'
-  const width = isSmallScreen ? '100%' : '600px'
+  const width = isSmallScreen ? '100%' : '616px'
   return (
-    <Paper elevation={1} style={{margin: '15px', padding: '25px', width}}>
+    <Paper elevation={1} style={{margin: '8px', padding: '15px', width}}>
       <Box style={{ marginBottom: '20px', fontSize: '18px', fontWeight: 'bold'}}>{p.title}</Box>
       <Box>
       <ResponsiveContainer

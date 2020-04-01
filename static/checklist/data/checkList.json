@@ -1,0 +1,5286 @@
+{
+  "Measures" : {
+    "unknown" : "Unknown",
+    "done" : "Done",
+    "not-yet" : "Implemented not yet",
+    "not-applic" : "Not applicable",
+    "empty" : "Empty"
+  },
+  "ResponseItems" : [ {
+    "itemID" : 0,
+    "itemNumber" : "1",
+    "itemCategory" : "Training for employees",
+    "itemResponseItems" : "Hygiene training for employees (proper hand washing, cough etiquette, …)"
+  }, {
+    "itemID" : 1,
+    "itemNumber" : "1",
+    "itemCategory" : "Training for employees",
+    "itemResponseItems" : "Offer specific training according to the infection prevention guide"
+  }, {
+    "itemID" : 2,
+    "itemNumber" : "1",
+    "itemCategory" : "Training for employees",
+    "itemResponseItems" : "inform employees by posting posters and notices"
+  }, {
+    "itemID" : 3,
+    "itemNumber" : "1",
+    "itemCategory" : "Training for employees",
+    "itemResponseItems" : "regular update meeting with COVID-19 crisis team"
+  }, {
+    "itemID" : 4,
+    "itemNumber" : "2",
+    "itemCategory" : "Health condition management",
+    "itemResponseItems" : "measurement of body temperature and confirmation of health condition before enter the factory"
+  }, {
+    "itemID" : 5,
+    "itemNumber" : "2",
+    "itemCategory" : "Health condition management",
+    "itemResponseItems" : "If employees experience symptoms such as fever, difficulty breathing, dry cough or shortness of breath, or if they have had direct contact with a patient who has been tested positive for COVID-19, they must stay at home"
+  }, {
+    "itemID" : 6,
+    "itemNumber" : "2",
+    "itemCategory" : "Health condition management",
+    "itemResponseItems" : "masks must be worn during meetings, when talking to colleagues and when moving around the company"
+  }, {
+    "itemID" : 7,
+    "itemNumber" : "2",
+    "itemCategory" : "Health condition management",
+    "itemResponseItems" : "shaking hands is prohibited"
+  }, {
+    "itemID" : 8,
+    "itemNumber" : "2",
+    "itemCategory" : "Health condition management",
+    "itemResponseItems" : "Procedure when people have had contact with COVID-19 infected people, based on the definition of contact persons"
+  }, {
+    "itemID" : 9,
+    "itemNumber" : "3",
+    "itemCategory" : "Meetings",
+    "itemResponseItems" : "closing of small meeting"
+  }, {
+    "itemID" : 10,
+    "itemNumber" : "3",
+    "itemCategory" : "Meetings",
+    "itemResponseItems" : "reduced the number of chairs in bigger meeting rooms"
+  }, {
+    "itemID" : 11,
+    "itemNumber" : "3",
+    "itemCategory" : "Meetings",
+    "itemResponseItems" : "no more training or meetings with many people"
+  }, {
+    "itemID" : 12,
+    "itemNumber" : "4",
+    "itemCategory" : "Travel Management",
+    "itemResponseItems" : "Before each business trip, people need to check whether this cannot be avoided by telephone calls or online meetings"
+  }, {
+    "itemID" : 13,
+    "itemNumber" : "4",
+    "itemCategory" : "Travel Management",
+    "itemResponseItems" : "If people are traveling, public transport and large crowds should be avoided"
+  }, {
+    "itemID" : 14,
+    "itemNumber" : "4",
+    "itemCategory" : "Travel Management",
+    "itemResponseItems" : "Business trips to China, South Korea, Iran, Slovakia, Hungary and Italy are prohibited"
+  }, {
+    "itemID" : 15,
+    "itemNumber" : "4",
+    "itemCategory" : "Travel Management",
+    "itemResponseItems" : "Business trips to other countries should only take place in very important cases and only after prior approval by management"
+  }, {
+    "itemID" : 16,
+    "itemNumber" : "4",
+    "itemCategory" : "Travel Management",
+    "itemResponseItems" : "Employees returning from each business trips have to be quarantined for 14 days "
+  }, {
+    "itemID" : 17,
+    "itemNumber" : "4",
+    "itemCategory" : "Travel Management",
+    "itemResponseItems" : "Employees returning from crisis area should stay in quarantine for 14 days"
+  }, {
+    "itemID" : 18,
+    "itemNumber" : "4",
+    "itemCategory" : "Travel Management",
+    "itemResponseItems" : "Travels forbidden"
+  }, {
+    "itemID" : 19,
+    "itemNumber" : "5",
+    "itemCategory" : "Canteen / Break Rooms",
+    "itemResponseItems" : "closing of canteen / break rooms"
+  }, {
+    "itemID" : 20,
+    "itemNumber" : "5",
+    "itemCategory" : "Canteen / Break Rooms",
+    "itemResponseItems" : "Review shifts etc. to improve congestion"
+  }, {
+    "itemID" : 21,
+    "itemNumber" : "5",
+    "itemCategory" : "Canteen / Break Rooms",
+    "itemResponseItems" : "Prohibit face to face sitting"
+  }, {
+    "itemID" : 22,
+    "itemNumber" : "5",
+    "itemCategory" : "Canteen / Break Rooms",
+    "itemResponseItems" : "Prohibit buffet style meal"
+  }, {
+    "itemID" : 23,
+    "itemNumber" : "6",
+    "itemCategory" : "BCP",
+    "itemResponseItems" : "Identify members required for business continuity and decentralize work locations"
+  }, {
+    "itemID" : 24,
+    "itemNumber" : "7",
+    "itemCategory" : "Arrangement of tools and \nequipment",
+    "itemResponseItems" : "Masks"
+  }, {
+    "itemID" : 25,
+    "itemNumber" : "7",
+    "itemCategory" : "Arrangement of tools and \nequipment",
+    "itemResponseItems" : "Alcohol disinfectant"
+  }, {
+    "itemID" : 26,
+    "itemNumber" : "7",
+    "itemCategory" : "Arrangement of tools and \nequipment",
+    "itemResponseItems" : "Thermometer"
+  }, {
+    "itemID" : 27,
+    "itemNumber" : "7",
+    "itemCategory" : "Arrangement of tools and \nequipment",
+    "itemResponseItems" : "Non-contact thermometer"
+  }, {
+    "itemID" : 28,
+    "itemNumber" : "7",
+    "itemCategory" : "Arrangement of tools and \nequipment",
+    "itemResponseItems" : "UV disinfection equipment"
+  }, {
+    "itemID" : 29,
+    "itemNumber" : "8",
+    "itemCategory" : "Work environment",
+    "itemResponseItems" : "Conduct regular disinfection (desks, chairs, handles, etc.)"
+  }, {
+    "itemID" : 30,
+    "itemNumber" : "8",
+    "itemCategory" : "Work environment",
+    "itemResponseItems" : "Provide regular ventilation"
+  }, {
+    "itemID" : 31,
+    "itemNumber" : "8",
+    "itemCategory" : "Work environment",
+    "itemResponseItems" : "Open doors whenever possible to avoid unnecessary contact with door handles"
+  }, {
+    "itemID" : 32,
+    "itemNumber" : "8",
+    "itemCategory" : "Work environment",
+    "itemResponseItems" : "Rule of silence (in the plant and in the canteen)"
+  }, {
+    "itemID" : 33,
+    "itemNumber" : "8",
+    "itemCategory" : "Work environment",
+    "itemResponseItems" : "keep distance between people (1 m)"
+  }, {
+    "itemID" : 34,
+    "itemNumber" : "8",
+    "itemCategory" : "Work environment",
+    "itemResponseItems" : "Moisture control (40-70% is considered appropriate in health and safety law)"
+  }, {
+    "itemID" : 35,
+    "itemNumber" : "8",
+    "itemCategory" : "Work environment",
+    "itemResponseItems" : "possibility of home office"
+  }, {
+    "itemID" : 36,
+    "itemNumber" : "8",
+    "itemCategory" : "Work environment",
+    "itemResponseItems" : "working in a shift system"
+  }, {
+    "itemID" : 37,
+    "itemNumber" : "8",
+    "itemCategory" : "Work environment",
+    "itemResponseItems" : "working in different building locations (expansion offices)"
+  }, {
+    "itemID" : 38,
+    "itemNumber" : "9",
+    "itemCategory" : "External people",
+    "itemResponseItems" : "customer visits, meetings are only allowed after management approval"
+  }, {
+    "itemID" : 39,
+    "itemNumber" : "9",
+    "itemCategory" : "External people",
+    "itemResponseItems" : "if visitors enter the building they have to fill out a questionnaire to the health status"
+  }, {
+    "itemID" : 40,
+    "itemNumber" : "9",
+    "itemCategory" : "External people",
+    "itemResponseItems" : "external staff like people from post office or truckage company should stay outside"
+  }, {
+    "itemID" : 41,
+    "itemNumber" : "9",
+    "itemCategory" : "External people",
+    "itemResponseItems" : "visitors are not allowed"
+  }, {
+    "itemID" : 42,
+    "itemNumber" : "10",
+    "itemCategory" : "Vendors (canteen, security)",
+    "itemResponseItems" : "provide guidance on measure body temperature, alcohol disinfection, hand washing and wearing masks"
+  }, {
+    "itemID" : 43,
+    "itemNumber" : "10",
+    "itemCategory" : "Vendors (canteen, security)",
+    "itemResponseItems" : "Notification of the regulations in the factory"
+  }, {
+    "itemID" : 44,
+    "itemNumber" : "11",
+    "itemCategory" : "Others",
+    "itemResponseItems" : "set up contact address that people can contact if they have any questions or emergency"
+  }, {
+    "itemID" : 45,
+    "itemNumber" : "11",
+    "itemCategory" : "Others",
+    "itemResponseItems" : "specific insurance proposed from our supplier Willistowerwatson for our employees in case of affection by COVID 19"
+  }, {
+    "itemID" : 46,
+    "itemNumber" : "11",
+    "itemCategory" : "Others",
+    "itemResponseItems" : "internal daily audit to check the respect of rules"
+  }, {
+    "itemID" : 47,
+    "itemNumber" : "11",
+    "itemCategory" : "Others",
+    "itemResponseItems" : "marks in smoking area/canteen/relax area/main entrance to warrant the distance"
+  }, {
+    "itemID" : 48,
+    "itemNumber" : "11",
+    "itemCategory" : "Others",
+    "itemResponseItems" : "subsidizing own car commuting instead of company bus"
+  }, {
+    "itemID" : 49,
+    "itemNumber" : "11",
+    "itemCategory" : "Others",
+    "itemResponseItems" : "employees over 60 can stay home "
+  } ],
+  "Companies" : [ {
+    "companyID" : 0,
+    "nation" : "Germany",
+    "companyName" : "MTCE GmbH"
+  }, {
+    "companyID" : 1,
+    "nation" : "Germany",
+    "companyName" : "NMB-Minebea-GmbH"
+  }, {
+    "companyID" : 2,
+    "nation" : "Germany",
+    "companyName" : "myonic Holding GmbH"
+  }, {
+    "companyID" : 3,
+    "nation" : "Germany",
+    "companyName" : "CEROBEAR GmbH"
+  }, {
+    "companyID" : 4,
+    "nation" : "Germany",
+    "companyName" : "Minebea Intec GmbH"
+  }, {
+    "companyID" : 5,
+    "nation" : "Germany",
+    "companyName" : "U-Shin Deutschland GmbH"
+  }, {
+    "companyID" : 6,
+    "nation" : "Germany",
+    "companyName" : "Mast Kunststoffe GmbH"
+  }, {
+    "companyID" : 7,
+    "nation" : "UK",
+    "companyName" : "NMB-Minebea UK (Lincoln)"
+  }, {
+    "companyID" : 8,
+    "nation" : "UK",
+    "companyName" : "Minebea Intec UK"
+  }, {
+    "companyID" : 9,
+    "nation" : "Italy",
+    "companyName" : "NMB Italia S.r.l."
+  }, {
+    "companyID" : 10,
+    "nation" : "Italy",
+    "companyName" : "MINEBEA Intec Italy S.r.l."
+  }, {
+    "companyID" : 11,
+    "nation" : "Italy",
+    "companyName" : "U-Shin Italia"
+  }, {
+    "companyID" : 12,
+    "nation" : "France",
+    "companyName" : "NMB Minebea S.a.r.l."
+  }, {
+    "companyID" : 13,
+    "nation" : "France",
+    "companyName" : "Mach Aero"
+  }, {
+    "companyID" : 14,
+    "nation" : "France",
+    "companyName" : "Minebea Intec France"
+  }, {
+    "companyID" : 15,
+    "nation" : "France",
+    "companyName" : "U-Shin Creteil"
+  }, {
+    "companyID" : 16,
+    "nation" : "France",
+    "companyName" : "U-Shin Abbeville"
+  }, {
+    "companyID" : 17,
+    "nation" : "France",
+    "companyName" : "U-Shin Nevers"
+  }, {
+    "companyID" : 18,
+    "nation" : "Slovakia",
+    "companyName" : "Minebea Slovakia S.R.O"
+  }, {
+    "companyID" : 19,
+    "nation" : "Slovakia",
+    "companyName" : "U-Shin Slovakia"
+  }, {
+    "companyID" : 20,
+    "nation" : "Czech",
+    "companyName" : "myonic s.r.o."
+  }, {
+    "companyID" : 21,
+    "nation" : "Austria",
+    "companyName" : "Minebea Intec Austria"
+  }, {
+    "companyID" : 22,
+    "nation" : "Switzerland",
+    "companyName" : "Paradox Engineering SA"
+  }, {
+    "companyID" : 23,
+    "nation" : "Switzerland",
+    "companyName" : "Minebea Intec Switzerland AG"
+  }, {
+    "companyID" : 24,
+    "nation" : "Belgium",
+    "companyName" : "Minebea Intec Belgium BVBA"
+  }, {
+    "companyID" : 25,
+    "nation" : "Netherlands",
+    "companyName" : "Minebea Intec Netherlands B.V."
+  }, {
+    "companyID" : 26,
+    "nation" : "Poland",
+    "companyName" : "Minebea Intec Poland sp. z o.o."
+  }, {
+    "companyID" : 27,
+    "nation" : "Spain",
+    "companyName" : "Minebea Intec Spain S.L."
+  }, {
+    "companyID" : 28,
+    "nation" : "Spain",
+    "companyName" : "U-Shin Spain S.L."
+  }, {
+    "companyID" : 29,
+    "nation" : "Russia",
+    "companyName" : "Minebea Intec Russia"
+  }, {
+    "companyID" : 30,
+    "nation" : "Russia",
+    "companyName" : "Access Mechanism L.L.C."
+  }, {
+    "companyID" : 31,
+    "nation" : "Hungary",
+    "companyName" : "U-SHIN EUROPE LTD."
+  } ],
+  "CompaniesResponses" : [ {
+    "companyID" : 0,
+    "itemValues" : [ {
+      "itemID" : 0,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 1,
+      "itemValue" : "not-yet"
+    }, {
+      "itemID" : 2,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 3,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 4,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 5,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 6,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 7,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 8,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 9,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 10,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 11,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 12,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 13,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 14,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 15,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 16,
+      "itemValue" : "not-yet"
+    }, {
+      "itemID" : 17,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 18,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 19,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 20,
+      "itemValue" : "not-applic"
+    }, {
+      "itemID" : 21,
+      "itemValue" : "not-applic"
+    }, {
+      "itemID" : 22,
+      "itemValue" : "not-applic"
+    }, {
+      "itemID" : 23,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 24,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 25,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 26,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 27,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 28,
+      "itemValue" : "not-yet"
+    }, {
+      "itemID" : 29,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 30,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 31,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 32,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 33,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 34,
+      "itemValue" : "not-yet"
+    }, {
+      "itemID" : 35,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 36,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 37,
+      "itemValue" : "not-applic"
+    }, {
+      "itemID" : 38,
+      "itemValue" : "not-applic"
+    }, {
+      "itemID" : 39,
+      "itemValue" : "not-applic"
+    }, {
+      "itemID" : 40,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 41,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 42,
+      "itemValue" : "not-applic"
+    }, {
+      "itemID" : 43,
+      "itemValue" : "not-applic"
+    }, {
+      "itemID" : 44,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 45,
+      "itemValue" : "not-applic"
+    }, {
+      "itemID" : 46,
+      "itemValue" : "not-yet"
+    }, {
+      "itemID" : 47,
+      "itemValue" : "not-yet"
+    }, {
+      "itemID" : 48,
+      "itemValue" : "not-applic"
+    }, {
+      "itemID" : 49,
+      "itemValue" : "not-yet"
+    } ]
+  }, {
+    "companyID" : 1,
+    "itemValues" : [ {
+      "itemID" : 0,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 1,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 2,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 3,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 4,
+      "itemValue" : "not-applic"
+    }, {
+      "itemID" : 5,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 6,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 7,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 8,
+      "itemValue" : "empty"
+    }, {
+      "itemID" : 9,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 10,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 11,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 12,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 13,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 14,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 15,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 16,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 17,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 18,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 19,
+      "itemValue" : "not-applic"
+    }, {
+      "itemID" : 20,
+      "itemValue" : "not-applic"
+    }, {
+      "itemID" : 21,
+      "itemValue" : "not-applic"
+    }, {
+      "itemID" : 22,
+      "itemValue" : "not-applic"
+    }, {
+      "itemID" : 23,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 24,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 25,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 26,
+      "itemValue" : "not-yet"
+    }, {
+      "itemID" : 27,
+      "itemValue" : "not-applic"
+    }, {
+      "itemID" : 28,
+      "itemValue" : "not-applic"
+    }, {
+      "itemID" : 29,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 30,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 31,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 32,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 33,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 34,
+      "itemValue" : "not-yet"
+    }, {
+      "itemID" : 35,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 36,
+      "itemValue" : "not-applic"
+    }, {
+      "itemID" : 37,
+      "itemValue" : "not-applic"
+    }, {
+      "itemID" : 38,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 39,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 40,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 41,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 42,
+      "itemValue" : "not-applic"
+    }, {
+      "itemID" : 43,
+      "itemValue" : "not-applic"
+    }, {
+      "itemID" : 44,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 45,
+      "itemValue" : "not-applic"
+    }, {
+      "itemID" : 46,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 47,
+      "itemValue" : "not-yet"
+    }, {
+      "itemID" : 48,
+      "itemValue" : "not-applic"
+    }, {
+      "itemID" : 49,
+      "itemValue" : "not-yet"
+    } ]
+  }, {
+    "companyID" : 2,
+    "itemValues" : [ {
+      "itemID" : 0,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 1,
+      "itemValue" : "not-yet"
+    }, {
+      "itemID" : 2,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 3,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 4,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 5,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 6,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 7,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 8,
+      "itemValue" : "empty"
+    }, {
+      "itemID" : 9,
+      "itemValue" : "not-yet"
+    }, {
+      "itemID" : 10,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 11,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 12,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 13,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 14,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 15,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 16,
+      "itemValue" : "not-yet"
+    }, {
+      "itemID" : 17,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 18,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 19,
+      "itemValue" : "not-yet"
+    }, {
+      "itemID" : 20,
+      "itemValue" : "not-applic"
+    }, {
+      "itemID" : 21,
+      "itemValue" : "not-applic"
+    }, {
+      "itemID" : 22,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 23,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 24,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 25,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 26,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 27,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 28,
+      "itemValue" : "not-yet"
+    }, {
+      "itemID" : 29,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 30,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 31,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 32,
+      "itemValue" : "not-yet"
+    }, {
+      "itemID" : 33,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 34,
+      "itemValue" : "not-yet"
+    }, {
+      "itemID" : 35,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 36,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 37,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 38,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 39,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 40,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 41,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 42,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 43,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 44,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 45,
+      "itemValue" : "not-applic"
+    }, {
+      "itemID" : 46,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 47,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 48,
+      "itemValue" : "not-applic"
+    }, {
+      "itemID" : 49,
+      "itemValue" : "not-yet"
+    } ]
+  }, {
+    "companyID" : 3,
+    "itemValues" : [ {
+      "itemID" : 0,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 1,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 2,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 3,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 4,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 5,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 6,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 7,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 8,
+      "itemValue" : "empty"
+    }, {
+      "itemID" : 9,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 10,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 11,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 12,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 13,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 14,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 15,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 16,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 17,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 18,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 19,
+      "itemValue" : "not-applic"
+    }, {
+      "itemID" : 20,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 21,
+      "itemValue" : "not-applic"
+    }, {
+      "itemID" : 22,
+      "itemValue" : "not-applic"
+    }, {
+      "itemID" : 23,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 24,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 25,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 26,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 27,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 28,
+      "itemValue" : "not-applic"
+    }, {
+      "itemID" : 29,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 30,
+      "itemValue" : "not-applic"
+    }, {
+      "itemID" : 31,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 32,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 33,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 34,
+      "itemValue" : "not-yet"
+    }, {
+      "itemID" : 35,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 36,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 37,
+      "itemValue" : "not-applic"
+    }, {
+      "itemID" : 38,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 39,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 40,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 41,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 42,
+      "itemValue" : "not-applic"
+    }, {
+      "itemID" : 43,
+      "itemValue" : "not-applic"
+    }, {
+      "itemID" : 44,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 45,
+      "itemValue" : "not-applic"
+    }, {
+      "itemID" : 46,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 47,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 48,
+      "itemValue" : "not-applic"
+    }, {
+      "itemID" : 49,
+      "itemValue" : "not-yet"
+    } ]
+  }, {
+    "companyID" : 4,
+    "itemValues" : [ {
+      "itemID" : 0,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 1,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 2,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 3,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 4,
+      "itemValue" : "not-yet"
+    }, {
+      "itemID" : 5,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 6,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 7,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 8,
+      "itemValue" : "empty"
+    }, {
+      "itemID" : 9,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 10,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 11,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 12,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 13,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 14,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 15,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 16,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 17,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 18,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 19,
+      "itemValue" : "not-yet"
+    }, {
+      "itemID" : 20,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 21,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 22,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 23,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 24,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 25,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 26,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 27,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 28,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 29,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 30,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 31,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 32,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 33,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 34,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 35,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 36,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 37,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 38,
+      "itemValue" : "not-yet"
+    }, {
+      "itemID" : 39,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 40,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 41,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 42,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 43,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 44,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 45,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 46,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 47,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 48,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 49,
+      "itemValue" : "done"
+    } ]
+  }, {
+    "companyID" : 5,
+    "itemValues" : [ {
+      "itemID" : 0,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 1,
+      "itemValue" : "not-yet"
+    }, {
+      "itemID" : 2,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 3,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 4,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 5,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 6,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 7,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 8,
+      "itemValue" : "empty"
+    }, {
+      "itemID" : 9,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 10,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 11,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 12,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 13,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 14,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 15,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 16,
+      "itemValue" : "not-applic"
+    }, {
+      "itemID" : 17,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 18,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 19,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 20,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 21,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 22,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 23,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 24,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 25,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 26,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 27,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 28,
+      "itemValue" : "not-applic"
+    }, {
+      "itemID" : 29,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 30,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 31,
+      "itemValue" : "not-yet"
+    }, {
+      "itemID" : 32,
+      "itemValue" : "not-applic"
+    }, {
+      "itemID" : 33,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 34,
+      "itemValue" : "not-yet"
+    }, {
+      "itemID" : 35,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 36,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 37,
+      "itemValue" : "not-applic"
+    }, {
+      "itemID" : 38,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 39,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 40,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 41,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 42,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 43,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 44,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 45,
+      "itemValue" : "not-applic"
+    }, {
+      "itemID" : 46,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 47,
+      "itemValue" : "not-yet"
+    }, {
+      "itemID" : 48,
+      "itemValue" : "not-applic"
+    }, {
+      "itemID" : 49,
+      "itemValue" : "not-yet"
+    } ]
+  }, {
+    "companyID" : 6,
+    "itemValues" : [ {
+      "itemID" : 0,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 1,
+      "itemValue" : "not-yet"
+    }, {
+      "itemID" : 2,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 3,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 4,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 5,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 6,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 7,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 8,
+      "itemValue" : "empty"
+    }, {
+      "itemID" : 9,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 10,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 11,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 12,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 13,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 14,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 15,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 16,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 17,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 18,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 19,
+      "itemValue" : "not-yet"
+    }, {
+      "itemID" : 20,
+      "itemValue" : "not-applic"
+    }, {
+      "itemID" : 21,
+      "itemValue" : "not-applic"
+    }, {
+      "itemID" : 22,
+      "itemValue" : "not-applic"
+    }, {
+      "itemID" : 23,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 24,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 25,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 26,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 27,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 28,
+      "itemValue" : "not-applic"
+    }, {
+      "itemID" : 29,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 30,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 31,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 32,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 33,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 34,
+      "itemValue" : "not-yet"
+    }, {
+      "itemID" : 35,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 36,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 37,
+      "itemValue" : "not-applic"
+    }, {
+      "itemID" : 38,
+      "itemValue" : "not-applic"
+    }, {
+      "itemID" : 39,
+      "itemValue" : "not-applic"
+    }, {
+      "itemID" : 40,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 41,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 42,
+      "itemValue" : "not-applic"
+    }, {
+      "itemID" : 43,
+      "itemValue" : "not-applic"
+    }, {
+      "itemID" : 44,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 45,
+      "itemValue" : "not-applic"
+    }, {
+      "itemID" : 46,
+      "itemValue" : "not-yet"
+    }, {
+      "itemID" : 47,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 48,
+      "itemValue" : "not-applic"
+    }, {
+      "itemID" : 49,
+      "itemValue" : "not-yet"
+    } ]
+  }, {
+    "companyID" : 7,
+    "itemValues" : [ {
+      "itemID" : 0,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 1,
+      "itemValue" : "not-yet"
+    }, {
+      "itemID" : 2,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 3,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 4,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 5,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 6,
+      "itemValue" : "not-yet"
+    }, {
+      "itemID" : 7,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 8,
+      "itemValue" : "empty"
+    }, {
+      "itemID" : 9,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 10,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 11,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 12,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 13,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 14,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 15,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 16,
+      "itemValue" : "not-applic"
+    }, {
+      "itemID" : 17,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 18,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 19,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 20,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 21,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 22,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 23,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 24,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 25,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 26,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 27,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 28,
+      "itemValue" : "not-yet"
+    }, {
+      "itemID" : 29,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 30,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 31,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 32,
+      "itemValue" : "not-yet"
+    }, {
+      "itemID" : 33,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 34,
+      "itemValue" : "not-yet"
+    }, {
+      "itemID" : 35,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 36,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 37,
+      "itemValue" : "not-applic"
+    }, {
+      "itemID" : 38,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 39,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 40,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 41,
+      "itemValue" : "not-yet"
+    }, {
+      "itemID" : 42,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 43,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 44,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 45,
+      "itemValue" : "not-applic"
+    }, {
+      "itemID" : 46,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 47,
+      "itemValue" : "not-yet"
+    }, {
+      "itemID" : 48,
+      "itemValue" : "not-applic"
+    }, {
+      "itemID" : 49,
+      "itemValue" : "not-yet"
+    } ]
+  }, {
+    "companyID" : 8,
+    "itemValues" : [ {
+      "itemID" : 0,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 1,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 2,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 3,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 4,
+      "itemValue" : "not-applic"
+    }, {
+      "itemID" : 5,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 6,
+      "itemValue" : "not-applic"
+    }, {
+      "itemID" : 7,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 8,
+      "itemValue" : "empty"
+    }, {
+      "itemID" : 9,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 10,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 11,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 12,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 13,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 14,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 15,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 16,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 17,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 18,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 19,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 20,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 21,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 22,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 23,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 24,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 25,
+      "itemValue" : "not-applic"
+    }, {
+      "itemID" : 26,
+      "itemValue" : "not-yet"
+    }, {
+      "itemID" : 27,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 28,
+      "itemValue" : "not-yet"
+    }, {
+      "itemID" : 29,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 30,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 31,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 32,
+      "itemValue" : "not-applic"
+    }, {
+      "itemID" : 33,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 34,
+      "itemValue" : "not-applic"
+    }, {
+      "itemID" : 35,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 36,
+      "itemValue" : "not-applic"
+    }, {
+      "itemID" : 37,
+      "itemValue" : "not-applic"
+    }, {
+      "itemID" : 38,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 39,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 40,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 41,
+      "itemValue" : "not-applic"
+    }, {
+      "itemID" : 42,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 43,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 44,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 45,
+      "itemValue" : "not-applic"
+    }, {
+      "itemID" : 46,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 47,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 48,
+      "itemValue" : "not-applic"
+    }, {
+      "itemID" : 49,
+      "itemValue" : "done"
+    } ]
+  }, {
+    "companyID" : 9,
+    "itemValues" : [ {
+      "itemID" : 0,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 1,
+      "itemValue" : "not-yet"
+    }, {
+      "itemID" : 2,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 3,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 4,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 5,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 6,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 7,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 8,
+      "itemValue" : "empty"
+    }, {
+      "itemID" : 9,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 10,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 11,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 12,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 13,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 14,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 15,
+      "itemValue" : "not-applic"
+    }, {
+      "itemID" : 16,
+      "itemValue" : "not-applic"
+    }, {
+      "itemID" : 17,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 18,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 19,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 20,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 21,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 22,
+      "itemValue" : "not-applic"
+    }, {
+      "itemID" : 23,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 24,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 25,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 26,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 27,
+      "itemValue" : "not-applic"
+    }, {
+      "itemID" : 28,
+      "itemValue" : "not-applic"
+    }, {
+      "itemID" : 29,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 30,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 31,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 32,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 33,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 34,
+      "itemValue" : "not-yet"
+    }, {
+      "itemID" : 35,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 36,
+      "itemValue" : "not-yet"
+    }, {
+      "itemID" : 37,
+      "itemValue" : "not-applic"
+    }, {
+      "itemID" : 38,
+      "itemValue" : "not-applic"
+    }, {
+      "itemID" : 39,
+      "itemValue" : "not-applic"
+    }, {
+      "itemID" : 40,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 41,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 42,
+      "itemValue" : "not-applic"
+    }, {
+      "itemID" : 43,
+      "itemValue" : "not-applic"
+    }, {
+      "itemID" : 44,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 45,
+      "itemValue" : "not-applic"
+    }, {
+      "itemID" : 46,
+      "itemValue" : "not-applic"
+    }, {
+      "itemID" : 47,
+      "itemValue" : "not-yet"
+    }, {
+      "itemID" : 48,
+      "itemValue" : "not-applic"
+    }, {
+      "itemID" : 49,
+      "itemValue" : "not-yet"
+    } ]
+  }, {
+    "companyID" : 10,
+    "itemValues" : [ {
+      "itemID" : 0,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 1,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 2,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 3,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 4,
+      "itemValue" : "not-applic"
+    }, {
+      "itemID" : 5,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 6,
+      "itemValue" : "not-applic"
+    }, {
+      "itemID" : 7,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 8,
+      "itemValue" : "empty"
+    }, {
+      "itemID" : 9,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 10,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 11,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 12,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 13,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 14,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 15,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 16,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 17,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 18,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 19,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 20,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 21,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 22,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 23,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 24,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 25,
+      "itemValue" : "not-applic"
+    }, {
+      "itemID" : 26,
+      "itemValue" : "not-applic"
+    }, {
+      "itemID" : 27,
+      "itemValue" : "not-applic"
+    }, {
+      "itemID" : 28,
+      "itemValue" : "not-applic"
+    }, {
+      "itemID" : 29,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 30,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 31,
+      "itemValue" : "not-applic"
+    }, {
+      "itemID" : 32,
+      "itemValue" : "not-applic"
+    }, {
+      "itemID" : 33,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 34,
+      "itemValue" : "not-applic"
+    }, {
+      "itemID" : 35,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 36,
+      "itemValue" : "not-applic"
+    }, {
+      "itemID" : 37,
+      "itemValue" : "not-applic"
+    }, {
+      "itemID" : 38,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 39,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 40,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 41,
+      "itemValue" : "not-applic"
+    }, {
+      "itemID" : 42,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 43,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 44,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 45,
+      "itemValue" : "not-applic"
+    }, {
+      "itemID" : 46,
+      "itemValue" : "not-applic"
+    }, {
+      "itemID" : 47,
+      "itemValue" : "not-applic"
+    }, {
+      "itemID" : 48,
+      "itemValue" : "not-applic"
+    }, {
+      "itemID" : 49,
+      "itemValue" : "done"
+    } ]
+  }, {
+    "companyID" : 11,
+    "itemValues" : [ {
+      "itemID" : 0,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 1,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 2,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 3,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 4,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 5,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 6,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 7,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 8,
+      "itemValue" : "empty"
+    }, {
+      "itemID" : 9,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 10,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 11,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 12,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 13,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 14,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 15,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 16,
+      "itemValue" : "not-applic"
+    }, {
+      "itemID" : 17,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 18,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 19,
+      "itemValue" : "not-applic"
+    }, {
+      "itemID" : 20,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 21,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 22,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 23,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 24,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 25,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 26,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 27,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 28,
+      "itemValue" : "not-applic"
+    }, {
+      "itemID" : 29,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 30,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 31,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 32,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 33,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 34,
+      "itemValue" : "not-yet"
+    }, {
+      "itemID" : 35,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 36,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 37,
+      "itemValue" : "not-applic"
+    }, {
+      "itemID" : 38,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 39,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 40,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 41,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 42,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 43,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 44,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 45,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 46,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 47,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 48,
+      "itemValue" : "not-applic"
+    }, {
+      "itemID" : 49,
+      "itemValue" : "not-applic"
+    } ]
+  }, {
+    "companyID" : 12,
+    "itemValues" : [ {
+      "itemID" : 0,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 1,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 2,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 3,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 4,
+      "itemValue" : "not-applic"
+    }, {
+      "itemID" : 5,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 6,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 7,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 8,
+      "itemValue" : "empty"
+    }, {
+      "itemID" : 9,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 10,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 11,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 12,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 13,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 14,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 15,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 16,
+      "itemValue" : "not-applic"
+    }, {
+      "itemID" : 17,
+      "itemValue" : "not-applic"
+    }, {
+      "itemID" : 18,
+      "itemValue" : "not-applic"
+    }, {
+      "itemID" : 19,
+      "itemValue" : "not-applic"
+    }, {
+      "itemID" : 20,
+      "itemValue" : "not-applic"
+    }, {
+      "itemID" : 21,
+      "itemValue" : "not-applic"
+    }, {
+      "itemID" : 22,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 23,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 24,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 25,
+      "itemValue" : "not-applic"
+    }, {
+      "itemID" : 26,
+      "itemValue" : "not-applic"
+    }, {
+      "itemID" : 27,
+      "itemValue" : "not-applic"
+    }, {
+      "itemID" : 28,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 29,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 30,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 31,
+      "itemValue" : "not-applic"
+    }, {
+      "itemID" : 32,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 33,
+      "itemValue" : "not-applic"
+    }, {
+      "itemID" : 34,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 35,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 36,
+      "itemValue" : "not-applic"
+    }, {
+      "itemID" : 37,
+      "itemValue" : "not-applic"
+    }, {
+      "itemID" : 38,
+      "itemValue" : "not-applic"
+    }, {
+      "itemID" : 39,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 40,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 41,
+      "itemValue" : "not-applic"
+    }, {
+      "itemID" : 42,
+      "itemValue" : "not-applic"
+    }, {
+      "itemID" : 43,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 44,
+      "itemValue" : "not-applic"
+    }, {
+      "itemID" : 45,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 46,
+      "itemValue" : "not-applic"
+    }, {
+      "itemID" : 47,
+      "itemValue" : "not-applic"
+    }, {
+      "itemID" : 48,
+      "itemValue" : "not-applic"
+    }, {
+      "itemID" : 49,
+      "itemValue" : "not-applic"
+    } ]
+  }, {
+    "companyID" : 13,
+    "itemValues" : [ {
+      "itemID" : 0,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 1,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 2,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 3,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 4,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 5,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 6,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 7,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 8,
+      "itemValue" : "empty"
+    }, {
+      "itemID" : 9,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 10,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 11,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 12,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 13,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 14,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 15,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 16,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 17,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 18,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 19,
+      "itemValue" : "not-yet"
+    }, {
+      "itemID" : 20,
+      "itemValue" : "not-applic"
+    }, {
+      "itemID" : 21,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 22,
+      "itemValue" : "not-applic"
+    }, {
+      "itemID" : 23,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 24,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 25,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 26,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 27,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 28,
+      "itemValue" : "not-applic"
+    }, {
+      "itemID" : 29,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 30,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 31,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 32,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 33,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 34,
+      "itemValue" : "not-yet"
+    }, {
+      "itemID" : 35,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 36,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 37,
+      "itemValue" : "not-applic"
+    }, {
+      "itemID" : 38,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 39,
+      "itemValue" : "not-applic"
+    }, {
+      "itemID" : 40,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 41,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 42,
+      "itemValue" : "not-applic"
+    }, {
+      "itemID" : 43,
+      "itemValue" : "not-applic"
+    }, {
+      "itemID" : 44,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 45,
+      "itemValue" : "not-applic"
+    }, {
+      "itemID" : 46,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 47,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 48,
+      "itemValue" : "not-applic"
+    }, {
+      "itemID" : 49,
+      "itemValue" : "done"
+    } ]
+  }, {
+    "companyID" : 14,
+    "itemValues" : [ {
+      "itemID" : 0,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 1,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 2,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 3,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 4,
+      "itemValue" : "not-yet"
+    }, {
+      "itemID" : 5,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 6,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 7,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 8,
+      "itemValue" : "empty"
+    }, {
+      "itemID" : 9,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 10,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 11,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 12,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 13,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 14,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 15,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 16,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 17,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 18,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 19,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 20,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 21,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 22,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 23,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 24,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 25,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 26,
+      "itemValue" : "not-yet"
+    }, {
+      "itemID" : 27,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 28,
+      "itemValue" : "not-yet"
+    }, {
+      "itemID" : 29,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 30,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 31,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 32,
+      "itemValue" : "not-yet"
+    }, {
+      "itemID" : 33,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 34,
+      "itemValue" : "not-yet"
+    }, {
+      "itemID" : 35,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 36,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 37,
+      "itemValue" : "not-applic"
+    }, {
+      "itemID" : 38,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 39,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 40,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 41,
+      "itemValue" : "not-yet"
+    }, {
+      "itemID" : 42,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 43,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 44,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 45,
+      "itemValue" : "not-applic"
+    }, {
+      "itemID" : 46,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 47,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 48,
+      "itemValue" : "not-applic"
+    }, {
+      "itemID" : 49,
+      "itemValue" : "done"
+    } ]
+  }, {
+    "companyID" : 15,
+    "itemValues" : [ {
+      "itemID" : 0,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 1,
+      "itemValue" : "not-yet"
+    }, {
+      "itemID" : 2,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 3,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 4,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 5,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 6,
+      "itemValue" : "not-applic"
+    }, {
+      "itemID" : 7,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 8,
+      "itemValue" : "empty"
+    }, {
+      "itemID" : 9,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 10,
+      "itemValue" : "not-applic"
+    }, {
+      "itemID" : 11,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 12,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 13,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 14,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 15,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 16,
+      "itemValue" : "not-yet"
+    }, {
+      "itemID" : 17,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 18,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 19,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 20,
+      "itemValue" : "not-applic"
+    }, {
+      "itemID" : 21,
+      "itemValue" : "not-applic"
+    }, {
+      "itemID" : 22,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 23,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 24,
+      "itemValue" : "not-yet"
+    }, {
+      "itemID" : 25,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 26,
+      "itemValue" : "not-yet"
+    }, {
+      "itemID" : 27,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 28,
+      "itemValue" : "not-yet"
+    }, {
+      "itemID" : 29,
+      "itemValue" : "not-yet"
+    }, {
+      "itemID" : 30,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 31,
+      "itemValue" : "not-yet"
+    }, {
+      "itemID" : 32,
+      "itemValue" : "not-yet"
+    }, {
+      "itemID" : 33,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 34,
+      "itemValue" : "not-yet"
+    }, {
+      "itemID" : 35,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 36,
+      "itemValue" : "not-yet"
+    }, {
+      "itemID" : 37,
+      "itemValue" : "not-yet"
+    }, {
+      "itemID" : 38,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 39,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 40,
+      "itemValue" : "not-yet"
+    }, {
+      "itemID" : 41,
+      "itemValue" : "not-yet"
+    }, {
+      "itemID" : 42,
+      "itemValue" : "not-applic"
+    }, {
+      "itemID" : 43,
+      "itemValue" : "not-applic"
+    }, {
+      "itemID" : 44,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 45,
+      "itemValue" : "not-applic"
+    }, {
+      "itemID" : 46,
+      "itemValue" : "not-yet"
+    }, {
+      "itemID" : 47,
+      "itemValue" : "not-yet"
+    }, {
+      "itemID" : 48,
+      "itemValue" : "not-applic"
+    }, {
+      "itemID" : 49,
+      "itemValue" : "not-applic"
+    } ]
+  }, {
+    "companyID" : 16,
+    "itemValues" : [ {
+      "itemID" : 0,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 1,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 2,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 3,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 4,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 5,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 6,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 7,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 8,
+      "itemValue" : "empty"
+    }, {
+      "itemID" : 9,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 10,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 11,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 12,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 13,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 14,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 15,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 16,
+      "itemValue" : "not-applic"
+    }, {
+      "itemID" : 17,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 18,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 19,
+      "itemValue" : "not-yet"
+    }, {
+      "itemID" : 20,
+      "itemValue" : "not-applic"
+    }, {
+      "itemID" : 21,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 22,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 23,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 24,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 25,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 26,
+      "itemValue" : "not-yet"
+    }, {
+      "itemID" : 27,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 28,
+      "itemValue" : "not-yet"
+    }, {
+      "itemID" : 29,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 30,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 31,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 32,
+      "itemValue" : "not-yet"
+    }, {
+      "itemID" : 33,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 34,
+      "itemValue" : "not-yet"
+    }, {
+      "itemID" : 35,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 36,
+      "itemValue" : "not-yet"
+    }, {
+      "itemID" : 37,
+      "itemValue" : "not-yet"
+    }, {
+      "itemID" : 38,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 39,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 40,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 41,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 42,
+      "itemValue" : "not-applic"
+    }, {
+      "itemID" : 43,
+      "itemValue" : "not-applic"
+    }, {
+      "itemID" : 44,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 45,
+      "itemValue" : "not-applic"
+    }, {
+      "itemID" : 46,
+      "itemValue" : "not-yet"
+    }, {
+      "itemID" : 47,
+      "itemValue" : "not-yet"
+    }, {
+      "itemID" : 48,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 49,
+      "itemValue" : "done"
+    } ]
+  }, {
+    "companyID" : 17,
+    "itemValues" : [ {
+      "itemID" : 0,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 1,
+      "itemValue" : "not-yet"
+    }, {
+      "itemID" : 2,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 3,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 4,
+      "itemValue" : "not-yet"
+    }, {
+      "itemID" : 5,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 6,
+      "itemValue" : "not-yet"
+    }, {
+      "itemID" : 7,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 8,
+      "itemValue" : "empty"
+    }, {
+      "itemID" : 9,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 10,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 11,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 12,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 13,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 14,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 15,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 16,
+      "itemValue" : "not-applic"
+    }, {
+      "itemID" : 17,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 18,
+      "itemValue" : "not-yet"
+    }, {
+      "itemID" : 19,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 20,
+      "itemValue" : "not-yet"
+    }, {
+      "itemID" : 21,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 22,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 23,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 24,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 25,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 26,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 27,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 28,
+      "itemValue" : "not-applic"
+    }, {
+      "itemID" : 29,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 30,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 31,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 32,
+      "itemValue" : "not-yet"
+    }, {
+      "itemID" : 33,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 34,
+      "itemValue" : "not-yet"
+    }, {
+      "itemID" : 35,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 36,
+      "itemValue" : "not-yet"
+    }, {
+      "itemID" : 37,
+      "itemValue" : "not-yet"
+    }, {
+      "itemID" : 38,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 39,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 40,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 41,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 42,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 43,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 44,
+      "itemValue" : "not-applic"
+    }, {
+      "itemID" : 45,
+      "itemValue" : "not-applic"
+    }, {
+      "itemID" : 46,
+      "itemValue" : "not-yet"
+    }, {
+      "itemID" : 47,
+      "itemValue" : "not-yet"
+    }, {
+      "itemID" : 48,
+      "itemValue" : "not-applic"
+    }, {
+      "itemID" : 49,
+      "itemValue" : "not-yet"
+    } ]
+  }, {
+    "companyID" : 18,
+    "itemValues" : [ {
+      "itemID" : 0,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 1,
+      "itemValue" : "not-applic"
+    }, {
+      "itemID" : 2,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 3,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 4,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 5,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 6,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 7,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 8,
+      "itemValue" : "empty"
+    }, {
+      "itemID" : 9,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 10,
+      "itemValue" : "not-applic"
+    }, {
+      "itemID" : 11,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 12,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 13,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 14,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 15,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 16,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 17,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 18,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 19,
+      "itemValue" : "not-applic"
+    }, {
+      "itemID" : 20,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 21,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 22,
+      "itemValue" : "not-applic"
+    }, {
+      "itemID" : 23,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 24,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 25,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 26,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 27,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 28,
+      "itemValue" : "not-applic"
+    }, {
+      "itemID" : 29,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 30,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 31,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 32,
+      "itemValue" : "not-applic"
+    }, {
+      "itemID" : 33,
+      "itemValue" : "not-applic"
+    }, {
+      "itemID" : 34,
+      "itemValue" : "not-applic"
+    }, {
+      "itemID" : 35,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 36,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 37,
+      "itemValue" : "not-applic"
+    }, {
+      "itemID" : 38,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 39,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 40,
+      "itemValue" : "not-applic"
+    }, {
+      "itemID" : 41,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 42,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 43,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 44,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 45,
+      "itemValue" : "not-applic"
+    }, {
+      "itemID" : 46,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 47,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 48,
+      "itemValue" : "not-applic"
+    }, {
+      "itemID" : 49,
+      "itemValue" : "not-applic"
+    } ]
+  }, {
+    "companyID" : 19,
+    "itemValues" : [ {
+      "itemID" : 0,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 1,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 2,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 3,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 4,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 5,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 6,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 7,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 8,
+      "itemValue" : "empty"
+    }, {
+      "itemID" : 9,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 10,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 11,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 12,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 13,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 14,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 15,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 16,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 17,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 18,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 19,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 20,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 21,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 22,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 23,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 24,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 25,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 26,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 27,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 28,
+      "itemValue" : "not-yet"
+    }, {
+      "itemID" : 29,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 30,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 31,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 32,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 33,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 34,
+      "itemValue" : "not-applic"
+    }, {
+      "itemID" : 35,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 36,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 37,
+      "itemValue" : "not-applic"
+    }, {
+      "itemID" : 38,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 39,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 40,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 41,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 42,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 43,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 44,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 45,
+      "itemValue" : "not-applic"
+    }, {
+      "itemID" : 46,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 47,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 48,
+      "itemValue" : "not-applic"
+    }, {
+      "itemID" : 49,
+      "itemValue" : "done"
+    } ]
+  }, {
+    "companyID" : 20,
+    "itemValues" : [ {
+      "itemID" : 0,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 1,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 2,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 3,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 4,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 5,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 6,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 7,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 8,
+      "itemValue" : "empty"
+    }, {
+      "itemID" : 9,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 10,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 11,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 12,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 13,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 14,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 15,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 16,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 17,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 18,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 19,
+      "itemValue" : "not-applic"
+    }, {
+      "itemID" : 20,
+      "itemValue" : "not-applic"
+    }, {
+      "itemID" : 21,
+      "itemValue" : "not-applic"
+    }, {
+      "itemID" : 22,
+      "itemValue" : "not-applic"
+    }, {
+      "itemID" : 23,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 24,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 25,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 26,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 27,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 28,
+      "itemValue" : "not-applic"
+    }, {
+      "itemID" : 29,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 30,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 31,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 32,
+      "itemValue" : "not-applic"
+    }, {
+      "itemID" : 33,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 34,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 35,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 36,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 37,
+      "itemValue" : "not-applic"
+    }, {
+      "itemID" : 38,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 39,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 40,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 41,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 42,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 43,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 44,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 45,
+      "itemValue" : "not-applic"
+    }, {
+      "itemID" : 46,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 47,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 48,
+      "itemValue" : "not-applic"
+    }, {
+      "itemID" : 49,
+      "itemValue" : "done"
+    } ]
+  }, {
+    "companyID" : 21,
+    "itemValues" : [ {
+      "itemID" : 0,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 1,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 2,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 3,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 4,
+      "itemValue" : "not-yet"
+    }, {
+      "itemID" : 5,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 6,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 7,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 8,
+      "itemValue" : "empty"
+    }, {
+      "itemID" : 9,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 10,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 11,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 12,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 13,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 14,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 15,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 16,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 17,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 18,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 19,
+      "itemValue" : "not-applic"
+    }, {
+      "itemID" : 20,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 21,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 22,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 23,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 24,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 25,
+      "itemValue" : "not-yet"
+    }, {
+      "itemID" : 26,
+      "itemValue" : "not-yet"
+    }, {
+      "itemID" : 27,
+      "itemValue" : "not-yet"
+    }, {
+      "itemID" : 28,
+      "itemValue" : "not-yet"
+    }, {
+      "itemID" : 29,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 30,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 31,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 32,
+      "itemValue" : "not-yet"
+    }, {
+      "itemID" : 33,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 34,
+      "itemValue" : "not-yet"
+    }, {
+      "itemID" : 35,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 36,
+      "itemValue" : "not-yet"
+    }, {
+      "itemID" : 37,
+      "itemValue" : "not-applic"
+    }, {
+      "itemID" : 38,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 39,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 40,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 41,
+      "itemValue" : "not-yet"
+    }, {
+      "itemID" : 42,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 43,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 44,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 45,
+      "itemValue" : "not-applic"
+    }, {
+      "itemID" : 46,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 47,
+      "itemValue" : "not-applic"
+    }, {
+      "itemID" : 48,
+      "itemValue" : "not-applic"
+    }, {
+      "itemID" : 49,
+      "itemValue" : "done"
+    } ]
+  }, {
+    "companyID" : 22,
+    "itemValues" : [ {
+      "itemID" : 0,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 1,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 2,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 3,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 4,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 5,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 6,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 7,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 8,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 9,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 10,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 11,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 12,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 13,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 14,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 15,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 16,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 17,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 18,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 19,
+      "itemValue" : "not-applic"
+    }, {
+      "itemID" : 20,
+      "itemValue" : "not-applic"
+    }, {
+      "itemID" : 21,
+      "itemValue" : "not-applic"
+    }, {
+      "itemID" : 22,
+      "itemValue" : "not-applic"
+    }, {
+      "itemID" : 23,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 24,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 25,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 26,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 27,
+      "itemValue" : "not-yet"
+    }, {
+      "itemID" : 28,
+      "itemValue" : "not-applic"
+    }, {
+      "itemID" : 29,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 30,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 31,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 32,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 33,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 34,
+      "itemValue" : "not-applic"
+    }, {
+      "itemID" : 35,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 36,
+      "itemValue" : "not-applic"
+    }, {
+      "itemID" : 37,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 38,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 39,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 40,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 41,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 42,
+      "itemValue" : "not-applic"
+    }, {
+      "itemID" : 43,
+      "itemValue" : "not-applic"
+    }, {
+      "itemID" : 44,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 45,
+      "itemValue" : "not-applic"
+    }, {
+      "itemID" : 46,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 47,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 48,
+      "itemValue" : "not-applic"
+    }, {
+      "itemID" : 49,
+      "itemValue" : "not-applic"
+    } ]
+  }, {
+    "companyID" : 23,
+    "itemValues" : [ {
+      "itemID" : 0,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 1,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 2,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 3,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 4,
+      "itemValue" : "not-yet"
+    }, {
+      "itemID" : 5,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 6,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 7,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 8,
+      "itemValue" : "empty"
+    }, {
+      "itemID" : 9,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 10,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 11,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 12,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 13,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 14,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 15,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 16,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 17,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 18,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 19,
+      "itemValue" : "not-applic"
+    }, {
+      "itemID" : 20,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 21,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 22,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 23,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 24,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 25,
+      "itemValue" : "not-yet"
+    }, {
+      "itemID" : 26,
+      "itemValue" : "not-yet"
+    }, {
+      "itemID" : 27,
+      "itemValue" : "not-yet"
+    }, {
+      "itemID" : 28,
+      "itemValue" : "not-yet"
+    }, {
+      "itemID" : 29,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 30,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 31,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 32,
+      "itemValue" : "not-yet"
+    }, {
+      "itemID" : 33,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 34,
+      "itemValue" : "not-yet"
+    }, {
+      "itemID" : 35,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 36,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 37,
+      "itemValue" : "not-applic"
+    }, {
+      "itemID" : 38,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 39,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 40,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 41,
+      "itemValue" : "not-yet"
+    }, {
+      "itemID" : 42,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 43,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 44,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 45,
+      "itemValue" : "not-applic"
+    }, {
+      "itemID" : 46,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 47,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 48,
+      "itemValue" : "not-applic"
+    }, {
+      "itemID" : 49,
+      "itemValue" : "done"
+    } ]
+  }, {
+    "companyID" : 24,
+    "itemValues" : [ {
+      "itemID" : 0,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 1,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 2,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 3,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 4,
+      "itemValue" : "not-yet"
+    }, {
+      "itemID" : 5,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 6,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 7,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 8,
+      "itemValue" : "empty"
+    }, {
+      "itemID" : 9,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 10,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 11,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 12,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 13,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 14,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 15,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 16,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 17,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 18,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 19,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 20,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 21,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 22,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 23,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 24,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 25,
+      "itemValue" : "not-yet"
+    }, {
+      "itemID" : 26,
+      "itemValue" : "not-yet"
+    }, {
+      "itemID" : 27,
+      "itemValue" : "not-yet"
+    }, {
+      "itemID" : 28,
+      "itemValue" : "not-yet"
+    }, {
+      "itemID" : 29,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 30,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 31,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 32,
+      "itemValue" : "not-yet"
+    }, {
+      "itemID" : 33,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 34,
+      "itemValue" : "not-yet"
+    }, {
+      "itemID" : 35,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 36,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 37,
+      "itemValue" : "not-applic"
+    }, {
+      "itemID" : 38,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 39,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 40,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 41,
+      "itemValue" : "not-yet"
+    }, {
+      "itemID" : 42,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 43,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 44,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 45,
+      "itemValue" : "not-applic"
+    }, {
+      "itemID" : 46,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 47,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 48,
+      "itemValue" : "not-applic"
+    }, {
+      "itemID" : 49,
+      "itemValue" : "done"
+    } ]
+  }, {
+    "companyID" : 25,
+    "itemValues" : [ {
+      "itemID" : 0,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 1,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 2,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 3,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 4,
+      "itemValue" : "not-applic"
+    }, {
+      "itemID" : 5,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 6,
+      "itemValue" : "not-applic"
+    }, {
+      "itemID" : 7,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 8,
+      "itemValue" : "empty"
+    }, {
+      "itemID" : 9,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 10,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 11,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 12,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 13,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 14,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 15,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 16,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 17,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 18,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 19,
+      "itemValue" : "not-applic"
+    }, {
+      "itemID" : 20,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 21,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 22,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 23,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 24,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 25,
+      "itemValue" : "not-applic"
+    }, {
+      "itemID" : 26,
+      "itemValue" : "not-applic"
+    }, {
+      "itemID" : 27,
+      "itemValue" : "not-applic"
+    }, {
+      "itemID" : 28,
+      "itemValue" : "not-applic"
+    }, {
+      "itemID" : 29,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 30,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 31,
+      "itemValue" : "not-applic"
+    }, {
+      "itemID" : 32,
+      "itemValue" : "not-applic"
+    }, {
+      "itemID" : 33,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 34,
+      "itemValue" : "not-applic"
+    }, {
+      "itemID" : 35,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 36,
+      "itemValue" : "not-applic"
+    }, {
+      "itemID" : 37,
+      "itemValue" : "not-applic"
+    }, {
+      "itemID" : 38,
+      "itemValue" : "not-applic"
+    }, {
+      "itemID" : 39,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 40,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 41,
+      "itemValue" : "not-yet"
+    }, {
+      "itemID" : 42,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 43,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 44,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 45,
+      "itemValue" : "not-applic"
+    }, {
+      "itemID" : 46,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 47,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 48,
+      "itemValue" : "not-applic"
+    }, {
+      "itemID" : 49,
+      "itemValue" : "done"
+    } ]
+  }, {
+    "companyID" : 26,
+    "itemValues" : [ {
+      "itemID" : 0,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 1,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 2,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 3,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 4,
+      "itemValue" : "not-applic"
+    }, {
+      "itemID" : 5,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 6,
+      "itemValue" : "not-applic"
+    }, {
+      "itemID" : 7,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 8,
+      "itemValue" : "empty"
+    }, {
+      "itemID" : 9,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 10,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 11,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 12,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 13,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 14,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 15,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 16,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 17,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 18,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 19,
+      "itemValue" : "not-applic"
+    }, {
+      "itemID" : 20,
+      "itemValue" : "not-applic"
+    }, {
+      "itemID" : 21,
+      "itemValue" : "not-applic"
+    }, {
+      "itemID" : 22,
+      "itemValue" : "not-applic"
+    }, {
+      "itemID" : 23,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 24,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 25,
+      "itemValue" : "not-applic"
+    }, {
+      "itemID" : 26,
+      "itemValue" : "not-yet"
+    }, {
+      "itemID" : 27,
+      "itemValue" : "not-yet"
+    }, {
+      "itemID" : 28,
+      "itemValue" : "not-yet"
+    }, {
+      "itemID" : 29,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 30,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 31,
+      "itemValue" : "not-applic"
+    }, {
+      "itemID" : 32,
+      "itemValue" : "not-applic"
+    }, {
+      "itemID" : 33,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 34,
+      "itemValue" : "not-applic"
+    }, {
+      "itemID" : 35,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 36,
+      "itemValue" : "not-applic"
+    }, {
+      "itemID" : 37,
+      "itemValue" : "not-applic"
+    }, {
+      "itemID" : 38,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 39,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 40,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 41,
+      "itemValue" : "not-applic"
+    }, {
+      "itemID" : 42,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 43,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 44,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 45,
+      "itemValue" : "not-applic"
+    }, {
+      "itemID" : 46,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 47,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 48,
+      "itemValue" : "not-applic"
+    }, {
+      "itemID" : 49,
+      "itemValue" : "done"
+    } ]
+  }, {
+    "companyID" : 27,
+    "itemValues" : [ {
+      "itemID" : 0,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 1,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 2,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 3,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 4,
+      "itemValue" : "not-yet"
+    }, {
+      "itemID" : 5,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 6,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 7,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 8,
+      "itemValue" : "empty"
+    }, {
+      "itemID" : 9,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 10,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 11,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 12,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 13,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 14,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 15,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 16,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 17,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 18,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 19,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 20,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 21,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 22,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 23,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 24,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 25,
+      "itemValue" : "not-yet"
+    }, {
+      "itemID" : 26,
+      "itemValue" : "not-yet"
+    }, {
+      "itemID" : 27,
+      "itemValue" : "not-yet"
+    }, {
+      "itemID" : 28,
+      "itemValue" : "not-yet"
+    }, {
+      "itemID" : 29,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 30,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 31,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 32,
+      "itemValue" : "not-yet"
+    }, {
+      "itemID" : 33,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 34,
+      "itemValue" : "not-yet"
+    }, {
+      "itemID" : 35,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 36,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 37,
+      "itemValue" : "not-applic"
+    }, {
+      "itemID" : 38,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 39,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 40,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 41,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 42,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 43,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 44,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 45,
+      "itemValue" : "not-applic"
+    }, {
+      "itemID" : 46,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 47,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 48,
+      "itemValue" : "not-applic"
+    }, {
+      "itemID" : 49,
+      "itemValue" : "done"
+    } ]
+  }, {
+    "companyID" : 28,
+    "itemValues" : [ {
+      "itemID" : 0,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 1,
+      "itemValue" : "not-yet"
+    }, {
+      "itemID" : 2,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 3,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 4,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 5,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 6,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 7,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 8,
+      "itemValue" : "empty"
+    }, {
+      "itemID" : 9,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 10,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 11,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 12,
+      "itemValue" : "not-applic"
+    }, {
+      "itemID" : 13,
+      "itemValue" : "not-applic"
+    }, {
+      "itemID" : 14,
+      "itemValue" : "not-applic"
+    }, {
+      "itemID" : 15,
+      "itemValue" : "not-applic"
+    }, {
+      "itemID" : 16,
+      "itemValue" : "not-applic"
+    }, {
+      "itemID" : 17,
+      "itemValue" : "not-applic"
+    }, {
+      "itemID" : 18,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 19,
+      "itemValue" : "not-yet"
+    }, {
+      "itemID" : 20,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 21,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 22,
+      "itemValue" : "not-applic"
+    }, {
+      "itemID" : 23,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 24,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 25,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 26,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 27,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 28,
+      "itemValue" : "not-applic"
+    }, {
+      "itemID" : 29,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 30,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 31,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 32,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 33,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 34,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 35,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 36,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 37,
+      "itemValue" : "not-applic"
+    }, {
+      "itemID" : 38,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 39,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 40,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 41,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 42,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 43,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 44,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 45,
+      "itemValue" : "not-applic"
+    }, {
+      "itemID" : 46,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 47,
+      "itemValue" : "not-yet"
+    }, {
+      "itemID" : 48,
+      "itemValue" : "not-applic"
+    }, {
+      "itemID" : 49,
+      "itemValue" : "not-yet"
+    } ]
+  }, {
+    "companyID" : 29,
+    "itemValues" : [ {
+      "itemID" : 0,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 1,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 2,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 3,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 4,
+      "itemValue" : "not-yet"
+    }, {
+      "itemID" : 5,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 6,
+      "itemValue" : "not-yet"
+    }, {
+      "itemID" : 7,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 8,
+      "itemValue" : "empty"
+    }, {
+      "itemID" : 9,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 10,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 11,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 12,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 13,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 14,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 15,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 16,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 17,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 18,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 19,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 20,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 21,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 22,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 23,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 24,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 25,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 26,
+      "itemValue" : "not-yet"
+    }, {
+      "itemID" : 27,
+      "itemValue" : "not-yet"
+    }, {
+      "itemID" : 28,
+      "itemValue" : "not-yet"
+    }, {
+      "itemID" : 29,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 30,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 31,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 32,
+      "itemValue" : "not-yet"
+    }, {
+      "itemID" : 33,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 34,
+      "itemValue" : "not-yet"
+    }, {
+      "itemID" : 35,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 36,
+      "itemValue" : "not-applic"
+    }, {
+      "itemID" : 37,
+      "itemValue" : "not-applic"
+    }, {
+      "itemID" : 38,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 39,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 40,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 41,
+      "itemValue" : "not-yet"
+    }, {
+      "itemID" : 42,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 43,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 44,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 45,
+      "itemValue" : "not-applic"
+    }, {
+      "itemID" : 46,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 47,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 48,
+      "itemValue" : "not-applic"
+    }, {
+      "itemID" : 49,
+      "itemValue" : "done"
+    } ]
+  }, {
+    "companyID" : 30,
+    "itemValues" : [ {
+      "itemID" : 0,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 1,
+      "itemValue" : "not-yet"
+    }, {
+      "itemID" : 2,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 3,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 4,
+      "itemValue" : "not-yet"
+    }, {
+      "itemID" : 5,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 6,
+      "itemValue" : "not-yet"
+    }, {
+      "itemID" : 7,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 8,
+      "itemValue" : "empty"
+    }, {
+      "itemID" : 9,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 10,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 11,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 12,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 13,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 14,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 15,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 16,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 17,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 18,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 19,
+      "itemValue" : "not-yet"
+    }, {
+      "itemID" : 20,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 21,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 22,
+      "itemValue" : "not-applic"
+    }, {
+      "itemID" : 23,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 24,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 25,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 26,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 27,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 28,
+      "itemValue" : "not-yet"
+    }, {
+      "itemID" : 29,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 30,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 31,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 32,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 33,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 34,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 35,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 36,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 37,
+      "itemValue" : "not-applic"
+    }, {
+      "itemID" : 38,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 39,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 40,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 41,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 42,
+      "itemValue" : "not-applic"
+    }, {
+      "itemID" : 43,
+      "itemValue" : "not-applic"
+    }, {
+      "itemID" : 44,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 45,
+      "itemValue" : "not-applic"
+    }, {
+      "itemID" : 46,
+      "itemValue" : "not-yet"
+    }, {
+      "itemID" : 47,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 48,
+      "itemValue" : "not-yet"
+    }, {
+      "itemID" : 49,
+      "itemValue" : "not-applic"
+    } ]
+  }, {
+    "companyID" : 31,
+    "itemValues" : [ {
+      "itemID" : 0,
+      "itemValue" : "not-yet"
+    }, {
+      "itemID" : 1,
+      "itemValue" : "not-yet"
+    }, {
+      "itemID" : 2,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 3,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 4,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 5,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 6,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 7,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 8,
+      "itemValue" : "empty"
+    }, {
+      "itemID" : 9,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 10,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 11,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 12,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 13,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 14,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 15,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 16,
+      "itemValue" : "not-applic"
+    }, {
+      "itemID" : 17,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 18,
+      "itemValue" : "not-applic"
+    }, {
+      "itemID" : 19,
+      "itemValue" : "not-applic"
+    }, {
+      "itemID" : 20,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 21,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 22,
+      "itemValue" : "not-applic"
+    }, {
+      "itemID" : 23,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 24,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 25,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 26,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 27,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 28,
+      "itemValue" : "not-yet"
+    }, {
+      "itemID" : 29,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 30,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 31,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 32,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 33,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 34,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 35,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 36,
+      "itemValue" : "not-applic"
+    }, {
+      "itemID" : 37,
+      "itemValue" : "not-applic"
+    }, {
+      "itemID" : 38,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 39,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 40,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 41,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 42,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 43,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 44,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 45,
+      "itemValue" : "not-applic"
+    }, {
+      "itemID" : 46,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 47,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 48,
+      "itemValue" : "done"
+    }, {
+      "itemID" : 49,
+      "itemValue" : "done"
+    } ]
+  } ]
+}
