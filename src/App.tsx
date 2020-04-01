@@ -12,7 +12,7 @@ import HomeRatio from './Components/charts/HomeRatio'
 import FilterComponent from './Components/FilterComponent'
 import Header from './Components/Header'
 import './style/index.css'
-import MapComponent from './Components/MapComponent'
+import MapComponent from './Components/Map/MapComponent'
 
 const App = () => {
   const initFilter: Filter = { countries: [], companies: [], date: []}

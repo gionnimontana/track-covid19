@@ -1,4 +1,6 @@
-class CovidMap 
+import L from 'leaflet'
+
+export class CovidMap 
 {
     constructor ()
     {
@@ -190,6 +192,28 @@ class CovidMap
 
     update_map()
     {
+
+        function get_filter_by_employee()
+        {
+            for (const btn of document.getElementsByName('filter_by_type'))
+            {
+                if(btn.checked)
+                {
+                    return btn.value;
+                };
+            };
+        };
+      
+        function get_filter_by_geo()
+        {
+            for (const btn of document.getElementsByName('filter_by_geo'))
+            {
+                if(btn.checked)
+                {
+                    return btn.value;
+                };
+            };
+        };
         //console.log("Updating map");
         var filter_by_geo = get_filter_by_geo();
         var filter_by_type = get_filter_by_employee();
