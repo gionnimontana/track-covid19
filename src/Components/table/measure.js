@@ -1,4 +1,6 @@
-$(document).ready(function () {
+
+
+export const measure = ($) => {
     var labelToSymbol = {
         'done': 'O',
         'not-yet': 'X',
@@ -104,4 +106,4 @@ $(document).ready(function () {
         }
     });
 
-});
+}

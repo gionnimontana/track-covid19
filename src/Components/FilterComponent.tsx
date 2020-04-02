@@ -1,5 +1,4 @@
 import React from 'react'
-import Paper from '@material-ui/core/Paper'
 import Box from '@material-ui/core/Box'
 import { Filter, Data, FilterOption } from '../Interfaces'
 import { getFilterOptions, sortFilterOptions } from '../functions'
@@ -27,8 +26,7 @@ const FilterComponent = (p: Props) => {
   }
 
   return (
-    <Paper elevation={1} style={{margin: '8px', width: "100%", padding: '15px', maxWidth: '1280px'}}>
-      <Box style={{ marginBottom: '15px', fontSize: '18px', fontWeight: 'bold'}}>Filters</Box>
+    <Box>
       <Box
         display="flex"
         flexDirection="row"
@@ -69,7 +67,7 @@ const FilterComponent = (p: Props) => {
           />
         </Box>
       </Box>
-    </Paper>
+    </Box>
   )
 }
 
